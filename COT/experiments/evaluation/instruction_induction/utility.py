@@ -5,6 +5,9 @@ Taken from the Instruction Induction paper: https://arxiv.org/pdf/2205.10782.pdf
 import re
 import string
 from collections import Counter
+import torch
+import random
+import numpy as np
 
 # TODO: add some more metrics here for the new tasks.
 
@@ -96,3 +99,12 @@ def get_multi_answer_contains(prediction, answers):
         if get_contains_score(prediction, answer) == 1:
             return 1
     return 0
+
+def set_all_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    
+    return f"Set all the seeds to {seed} successfully!"

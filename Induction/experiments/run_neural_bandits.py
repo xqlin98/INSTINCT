@@ -27,7 +27,7 @@ from gpytorch.priors import GammaPrior
 from instruction_coupled_kernel import *
 from tqdm import tqdm
 import argparse
-from misc import set_all_seed, TASKS
+from experiments.evaluation.instruction_induction.utility import set_all_seed, TASKS
 import datetime
 
 SMOKE_TEST = os.environ.get("SMOKE_TEST")
