@@ -1,0 +1,807 @@
+{
+    "metadata": {
+        "num_examples": 200
+    },
+    "examples": {
+        "1": {
+            "input": "Jane: I may be 10 min late. Sorry.\r\nAlex: Ok. I'm by the left entrance.\r\nJane: The bus is running late. I've just passed the supermarket.\r\nAlex: No worries. I'll be waiting for you.\r\nJane: Thnx\r\nAlex: Did you remember to take the file with the xerox copies?\r\nJane: Yes. I hope it will be useful. It's quite a brick.\r\nAlex: Hope so too\r\nJane: We'll do fine :-)\r\nAlex: No other choice. Seems like it's our last chance of getting through to them.\r\nJane: Maybe they will be convinced after they've seen our materials.",
+            "output": "Jane will be about 10 minutes late. Alex is waiting at the left entrance and they are going to attend a meeting. This might be the last opportunity for Jane and Alex to get through to them."
+        },
+        "2": {
+            "input": "Johnatan: yoo guys\r\nDarren: B-)\r\nLucas: hey wassup\r\nJohnatan: beer? now?\r\nDarren: hell yeah B-)\r\nLucas: I'm free in the evening",
+            "output": "Lucas, Johnatan and Darren are going to get some beer."
+        },
+        "3": {
+            "input": "Kate: Hey, do you know if our medical insurance covers hospital costs?\nGreg: Hm, it depends\nMel: What happened dear?\nKate: I broke my arm and they're sending me to the hospital :/\nGreg: Call Linda or ask someone at the reception, they should be able to tell you what kind of package you have\nKate: thnx",
+            "output": "Kate broke her arm and she's going to the hospital. She'd like to know whether her medical insurance covers hospital costs. Greg suggests her to call Linda or ask someone at the reception about it."
+        },
+        "4": {
+            "input": "Shanon: Yeah. So what bout him?\r\nVictor: He's no longer our teacher :)\r\nOliver: I'm so happy :)\r\nSid: Me too!\r\nShanon: Bt y?\r\nSid: He got fired 2day and thrown out of school?\r\nOliver: Literally thrown out!\r\nShanon: What?!\r\nVictor: I suppose he's had it and lost it.\r\nOliver: Or maybe had one too many ;)\r\nSid: Not. Our. Teacher. Anymore!",
+            "output": "He is no longer the teacher of Shanon, Victor, Oliver and Sid. He got fired today."
+        },
+        "5": {
+            "input": "Pete: Did you clean the hamster cage?\r\nAdelle: No. Is it my turn?\r\nPete: Yes. After school, no excuses.\r\nAdelle: Fine.",
+            "output": "Adelle has to clean the hamster cage after school."
+        },
+        "6": {
+            "input": "Luke: are you still looking for someone to join netflix family?\r\nPaul: yes, 1 person :)\r\nLuke: i am the one!\r\nPaul: sure, i will send you the login and password on sunday\r\nLuke: ok we can talk tomorrow\r\nPaul: i don't really remember it now\r\nLuke: send me also the bank account details so I can wire you the money every month. Are you paying for this or someone else?\r\nPaul: I do, and I keep track of everyone accessing so you should not expect any bans :D\r\nLuke: easy mate :D you still on holidays with your girl?\r\nPaul: last dinner :( tomorrow we are out\r\nLuke: how long have you been there?\r\nPaul: less than 8 days :/",
+            "output": "Paul is going to share his Netflix account with Luke. In exchange Luke is going to contribute to the subscription. Paul will send Luke his bank details. Paul is on vacation with his girlfriend till tomorrow."
+        },
+        "7": {
+            "input": "Eric: Hey Bella, What happened today in boss's room?? Was he angry??\r\nBella: NO NO!!! He wasn't angry at all.. He actually appreciated on our brave deccision to dismiss the request of client..\r\nEric: REALLY!! He appreciated this decision..\r\nBella: Yeah he really did.. I too was astounded by his reaction...\r\nEric: What could possibly lead to this?? I mean , they were potential clients...\r\nBella: What he told me was that he was looking forward to bring in new clients which were our current client's competitor..\r\nEric: Oh that could possibly be the reason.Well anyways you got appreciation xD congo\t\r\nBella: hahaha Blessing in disguise xD",
+            "output": "Bella and Eric dismissed a request of a client. Their boss appreciated the decision. He brings in new clients."
+        },
+        "8": {
+            "input": "Andrew: Have you got the paper from the office?\r\nPaula: Not yet, I'm going there tomorrow.\r\nAndrew: You'd better... The deadline for the application is Friday at noon.\r\nPaula: Ok, sure! I promise I won't forget it!",
+            "output": "Paula needs the paper from the office to submit an application."
+        },
+        "9": {
+            "input": "Mark: Heading out in a sec. You coming along?\r\nSally: No.\r\nMark: ?\r\nSally: Don't feel well.\r\nMark: Oh. Can I do anything?\r\nSally: No. Girl stuff.\r\nMark: TMI!\r\nSally: LOL!\r\nMark: Let me know if you change your mind. I can pick you up.\r\nSally: Okay.\r\nMark: We will miss you. Should I just have your character sit out?\r\nSally: Yes! Don't want her killed off!\r\nMark: Mwahaha!\r\nSally: Not funny!\r\nMark: Could be funny!\r\nSally: Please don't! I just got all her spells and stuff!\r\nMark: I won't, I'm j/k.\r\nSally: You better be.\r\nMark: I swear!",
+            "output": "Sally is not going out because she doesn't feel well. "
+        },
+        "10": {
+            "input": "Madison: <file_other>\r\nMadison: I saw this offer today\r\nAdam: Thailand??\r\nMadison: Exactly\r\nAdam: Not to expensive??\r\nMadison: Tickets cost pretty penny, but the rest is extra cheap\r\nTaylor: And children under 12 --> 50% off\r\nJordan: Seems ok",
+            "output": "Madison considers buying flight tickets to Thailand as she has found a cheap offer with 50% discount for children under 12."
+        },
+        "11": {
+            "input": "Elena: Happy birthday my dear!\r\nDorothea: Oh thank you darling! <3\r\nElena: I wish you all the best and I hope all your dreams come trueee!\r\nDorothea: Haha thanks!\r\nElena: Are you going to celebrate today?\r\nDorothea: Yes, I'm gonna meet Tom and we're going to eat something in the town :)\r\nElena: Cool! So enjoy guys! And see you on your party on Saturday! :D\r\nDorothea: Thx! Love U :* and see you soon! ",
+            "output": "Dorothea is having a birthday dinner in the town with Tom. Elena is seeing Dorothea at her party on Saturday. "
+        },
+        "12": {
+            "input": "Patricia: Hello, here's the fair-trade brand I've been talking about <file_other>\r\nElle: Oh, thanks!\r\nFlorence: Looks great!\r\nPatricia: I'm glad, I hope you enjoy it. The quality's really great and knowing where it came from makes it easier to spend the extra dollar ;)\r\nElle: I'll look into it :)\r\nFlorence: Thx",
+            "output": "Patricia is recommending a fair-trade brand to Elle and Florence."
+        },
+        "13": {
+            "input": "Beatrice: I am in town, shopping. They have nice scarfs in the shop next to the church. Do you want one?\r\nLeo: No, thanks\r\nBeatrice: But you don't have a scarf.\r\nLeo: Because I don't need it.\r\nBeatrice: Last winter you had a cold all the time. A scarf could help.\r\nLeo: I don't like them.\r\nBeatrice: Actually, I don't care. You will get a scarf.\r\nLeo: How understanding of you!\r\nBeatrice: You were complaining the whole winter that you're going to die. I've had enough.\r\nLeo: Eh.",
+            "output": "Beatrice wants to buy Leo a scarf, but he doesn't like scarves. She cares about his health and will buy him a scarf no matter his opinion."
+        },
+        "14": {
+            "input": "Joe: This job is wearing me up\r\nTim: Oh no! I thought you love it\r\nJoe: I do, but because of it they give me more work\r\nSam: Shit, this sucks man, don't let it burn you out\r\nTim: Exactly, like my friend Terry\r\nJoe: What did he do?\r\nTim: Quit eventually, but he had trouble sleeping, constantly tired, and turned out to have an ulcer\r\nJoe: Fuck! I gotta slow down",
+            "output": "Joe's job is wearing him up. Tim's friend Terry quit his job because he was burned out."
+        },
+        "15": {
+            "input": "Whitney: Hello\r\nHailey:  Hey\r\nWhitney: Have you been to I-max cinemas?\r\nHailey: Nop\r\nHailey:  You planning on taking me?\r\nWhitney: Mmmh maybe\r\nWhitney: But it all depends if you will be available the day Aqua man is being released\r\nHailey:  I'll break the laws to make time for it\ud83d\ude02\r\nWhitney: Haha. Then it is a deal\r\nHailey:  Cool.\r\nWhitney: Before I forget Shadrack and his girlfriend will be accompanying us\r\nHailey:  Even better.\r\nWhitney: Fine. I guess I will see you then.\r\nHailey:  Definitely",
+            "output": "Hailey hasn't been to I-max cinema yet and Whitney wants to take her to one to watch Aquaman. Hailey'll do everything to find some time for it. Whitney informs Hailey that Shadrack and his girlfriend are going with them."
+        },
+        "16": {
+            "input": "Wayne: hi kiddo, got home alright?\r\nTommy: sure\r\nWayne: did mum pick you up from the station?\r\nTommy: no, she texted me I should take a bus\r\nWayne: :(\r\nTommy: it's alright! she's at school already\r\nWayne: forgot\r\nTommy: thanks for the weekend dad. I liked it.\r\nWayne: what most?\r\nTommy: angling\r\nWayne: right. We'll do it again. Promised.\r\nTommy: cool\r\nTommy: will you send me the pics pls?\r\nWayne: on their way\r\nWayne: <file_photo>\r\nTommy: thanks dad!\r\nWayne: talk to you later kiddo.In the evening?\r\nTommy: yeah",
+            "output": "Tommy took a bus. He enjoyed the weekend with Wayne. They will talk in the evening."
+        },
+        "17": {
+            "input": "Cora: Have you heard how much fuss British media made about meet and greet with James Charles in Birmingham?\r\nEllie: no...! what happened?\r\nCora: Well, there was a meet and greet with James Charles in one of the malls in Birmingham and about 8000 fans showed up for it.\r\nCora: It cause a gridlock around the mall and - of course - British media had to make some (quite negative) comments on it.\r\nEllie: they came for sister James?! >:(\r\nEllie: i sister snapped!! :p :D\r\nCora: Haha :D\r\nCora: You shouldn't watch so much youtube, you're getting weirder and weirder. :d\r\nEllie: sister shut up :P so, what did they say?\r\nCora: ;) :* \"Daily Mail\" was surprised that a meet and greet with a \"virtually unknown\" youtuber gathered 8000 people. :p\r\nCora: A host from LBC tried to find an answer to an unanswerable question: \"Who is James Charles?\". Eventually James called him and introduced himself. On air. :D\r\nEllie: there's something called google lol\r\nCora: Right? :p\r\nCora: Some hosts from ITV Central couldn't wrap their heads around the fact that a guy can wear makeup.\r\nEllie: really???\r\nEllie: smh it's 21st century, they should have noticed already...  there are so many amazing male makeup artists\r\nCora: I agree! There are still plenty of dinosaurs in the media. :/",
+            "output": "There was a meet-and-greet with James Charles in Birmingham which gathered 8000  people."
+        },
+        "18": {
+            "input": "Steffen: Any room in any of the cars going to the infinity pool? Im more handicapped than usual since I twisted my ancle yesterday :(\r\nIrene: we can give you a lift. Don\u2019t think the car can make it all the way up, so will park at the bottom and hike up \r\nSteffen: Then I think I have to skip - cant really walk on my leg atm :confused: But thanks anyway\r\nIrene: :(\r\nDan: I\u2019m pretty sure Mr.Budd could make it, it\u2019s 4wheel drive, if mr.budd is going, although I haven\u2019t seen the hill \r\nLuke: have you been up there? how bad is the road actually?\r\nLuke: lol, that explains it\r\nLuke: Sandy, is it vistas de olas?\r\nBen: Yes! Vistas de olas",
+            "output": "Steffen twisted his ankle yesterday and needs a lift to the infinity pool. Irene's car probably won't make it up the hill, so they'd have to park at the bottom and hike up. Mr.Budd should make it up the hill since it's a 4-wheel drive."
+        },
+        "19": {
+            "input": "Jack: I'm 10 min late..\r\nJack: sorry\r\nLaura: no worries, I'll wait inside\r\nJack: ok.",
+            "output": "Laura and Jack are about to meet. Jack is running 10 minutes late."
+        },
+        "20": {
+            "input": "Jill: So bored!\r\nNate: Well... can't help you there\r\nNate: Still at work\r\nJill: ugh I need to find a job\r\nJill: I've watched everything on youtube already\r\nNate: Doubt it :P I'll call you when I get off work",
+            "output": "Jill is bored and has watched YouTube. Nate is at work and will call Jill when he finishes it."
+        },
+        "21": {
+            "input": "Mike: Let's go for a beer\nTom: Now?\nMike: Yes\nBen: Ok",
+            "output": "Mike, Tom and Ben will go for a beer."
+        },
+        "22": {
+            "input": "Peadar: So who's coming for a drink later then??!\nClare: Oh lols soz I'm not in town\nAnnette: A drink?!!?!!\nPeadar: A drink!!!\nAnnette: I\u2019m home sick soz huns\nAnnette: Got lung lurgy\nOli: Are people at Jesus bar now?\nJames: Heading to Jesus bar now! Come join :) turn left as you come into college\nAnne: Woops.. . Sorry guys I double booked myself!\nHelen: Yes! Jesus bar, from around 9.15 ish\nPeadar: Was that just a question oli\ud83d\ude0b or did you mean... I'll join ye\ud83d\ude01\nOli: I cycled and ran around the bar, but couldn't find anyone \ud83d\ude22\nClare: You cycled around the bar?\nOli: To the bar \ud83d\ude05\nHelen: \ud83d\ude48\ud83d\ude0d\ud83d\ude07",
+            "output": "Annette is sick. James is going to the Jesus bar. Oli couldn't find anyone near the bar."
+        },
+        "23": {
+            "input": "Lucy: 15. My little girl is 15. What should I do now? Where is the rule book?\nPatricia: Why? It's like yesterday she was 5 years old...\nPatricia: You know, you have like 15 years of preparation and it shouldn't come as a surprise :) \nLucy: Pat, as a mother I'm not as good as I always wanted to be...\nPatricia: Don't exaggerate...\nLucy: Are you numb to all emotions? How did you feel when Patrick turned 15?\nPatricia: I just don't see things as you do :)\nLucy: :)",
+            "output": "Lucy is panicking because her daughter is 15 now and she is not sure she is prepared as a mother."
+        },
+        "24": {
+            "input": "Ella: so? \r\nMolly: ?\r\nElla: come on! pics or it didn't happen\r\nMolly: what are you going on about?\r\nElla: I heard you met up with Chuck\r\nMolly: no... when was this suppossed to happen?\r\nElla: friday\r\nMolly: Holly fuck that little shit made a story up\r\nElla: ?\r\nMolly: I told him no and the little fucker made up a story\r\nMolly: Im gonna kill him ",
+            "output": "Chuck told Ella that he'd met up with Molly. He made up the story, as actually Molly refused to go out with him. "
+        },
+        "25": {
+            "input": "Kane: have you heard the new 30 seconds to mars album?\r\nShannon: no, is it good?\r\nKane: you should so check it out\r\nShannon: ok thanks for the recommendation\r\nKane: no prob",
+            "output": "Kane recommends the new 30 Seconds to Mars album to Shannon."
+        },
+        "26": {
+            "input": "Ralph: Have you prepared a speech for Ulrich's wedding?\r\nSergio: Yes, it took me a long time\r\nRalph: What are you going to mention?\r\nSergio: I'll mostly just talk about how he's been a great friend over the years.\r\nRalph: Yeah, he is a great guy. He deserves this.\r\nSergio: I'm a bit nervous about it though--giving a speech.\r\nRalph: You'll be fine. He'll know you put a lot of thought into it.",
+            "output": "Sergio needed a long time to prepare a speech for Ulrich's wedding. He's going to talk about their long-lasting friendship and is nervous about giving a speech. Ralph is sure it will be fine. "
+        },
+        "27": {
+            "input": "Anne: I hate that bitch!\r\nCatherine: What did she do again???\r\nNora: Who's the bitch?\r\nNora: Sorry I missed something\r\nCatherine: Miranda!!! \r\nCatherine: We all hate her\r\nAnne: Yesterday she called Tom, was all sweet with him you know how she can be....\r\nCatherine: No way she did it!! How dare she!! She knows you guys are dating.\r\nAnne: I think that's why she did it. She wants to take Tom away from me.\r\nNora: Oh, come on! She's not his type! ",
+            "output": "Miranda called Tom yesterday and spoke to him in a sweet way. Anne is angry with her because Anne is dating Tom."
+        },
+        "28": {
+            "input": "Sam: hi, i need a help\r\nSarah fashion: hello how can i help?\r\nSam: Actually i was looking for a nice black dress for my wife, i mean i dont want the in-store product..\r\nSarah fashion: Yes sir, we make dresses on order as per customer requirements.\r\nSam: yeah i saw that option on the web page, actually its a surprise gift for her, but i have no idea what should be the requirements of the dress.\r\nSarah fashion: oh in that case why dont you choose something ready made sir\r\nSam: Actually i want something different for her something she has not seen before\r\nSarah fashion: that nice, do you have any sketch in your mind it would be easier to help \r\nSam: yes that it should be a dress, black in color decent and elegant, and.... thats it :(\r\nSarah fashion: :) dont worry Sir we will try to help you as much as we can but you have to choose between the choices we give you\r\nSam: Sure.\r\nSarah fashion: Would you mind coming to the store? or you want to place order here only?\r\nSam: i was wondering if i could get help and decide i would place order right here...\r\nSarah fashion: Sure sir i am sending you few pictures you can mix and match the designs and that way we would be able to create a new design?\r\nSam: that sounds like a good idea..\r\nSarah fashion: <file_photo><file_photo><file_photo><file_photo><file_photo><file_photo><file_photo><file_photo>\r\nSam: wow! they are all so good but they are available for every one right?\r\nSarah fashion: yes sir!\r\nSam: ok so i want the cut that is in <file_photo> sleeves like this<file_photo> length and buttons <file_photo>\r\nSarah fashion: Nice choice sir, your product number is 898998 now you can order on the website with this product number and the same procedure would be applied to your order.\r\nSam: Thank you so much, i didnt know it was so easy.\r\nSarah fashion:  Your welcome sir, We are glad your liked the service and we hope you like the dress too. \r\nSam: :)",
+            "output": "Sam wants to buy a custom dress as a surprise for his wife. It should be black and elegant. The store employee sent him some pictures for reference. Sam decided on the features he likes. His product number is 898998 and he will place the order on the company's website."
+        },
+        "29": {
+            "input": "Ty: do you speak French?\r\nVeronica: no \r\nTy: pity, I need a translator ",
+            "output": "Ty needs a translator. Veronica doesn't speak French."
+        },
+        "30": {
+            "input": "Pamela: Have you tried applying for the RGS grant?\nZoe: I did last year.\nZoe: Wasn't lucky...\nXiara: Me neither\nPamela: Do you know if I have to be a member?\nZoe: It depends on the award\nPamela: Ok I'll have a look at their website ",
+            "output": "Pamela will look at their website to apply for the RGS grant. Zoe and Xiara applied last year but they weren't lucky. Sometimes you have to be a member to apply."
+        },
+        "31": {
+            "input": "Emma: Hi neighbour :)\r\nEmma: Do you want to take a stroll with the little ones?\r\nAbigail: Hey Emma :) I don't think that's a good idea.\r\nAbigail: My smog alert app is showing that the norms have been exceeded by 30% today :O\r\nEmma: Oh my, that sounds serious.\r\nEmma: I need to install that app.",
+            "output": "Abigail is not going to take a stroll with the little ones. Her smog alert app is showing that the norms have been exceeded by 30% today."
+        },
+        "32": {
+            "input": "Julie: Most of the people will be girls from the village 40+\r\nDebra: i dont care, village girls are super cool\r\nJulie: it will be awesome to meet up again\r\nDebra: it is over the weekend and looking into my calendar it seems im available\r\nJulie: awesome! so youre on the list <3\r\nDebra: <3\r\nJulie: yeah, we'e gonna drink a little vodka :P\r\nDebra: :D\r\nJulie: go on debbie and share the event on your wall, we need some recognition haha\r\nDebra: brace yourself Jules :D how many people are coming?\r\nJulie: its 20",
+            "output": "Julie and Debra are discussing the event, there will be about 20 people, mostly girls from the village 40+."
+        },
+        "33": {
+            "input": "Ying: <file_photo>\nYing: my 10 years challenge everyone\nHelen: wow\nNorma: :O\nZazu: dude...\nZazu: I'm impressed",
+            "output": "Ying sent a photo of his 10 years challenge to Helen, Norma and Zazu."
+        },
+        "34": {
+            "input": "Paula: Can we meet with the new person soon?\r\nRalph: Sure. In an hour okay?\r\nPaula: Perfect.",
+            "output": "Paula and Ralph will meet the new person in an hour. "
+        },
+        "35": {
+            "input": "Ronald: How's your weekend?\r\nJulia: Fine I guess...\r\nRonald: Doesn't sound like you're enjoying it\r\nJulia: Ehh. My parents are having a fight over where should we eat\r\nJulia: And honestly I don't event want to eat with them anymore\r\nRonald: I'm sorry\r\nJulia: Yup. Me too.\r\nRonald: Call me when you get back.\r\nRonald: I've got something to tell you, and I'm sure you're gonna piss rainbows\r\nJulia: Hahaha. I can see the giraffe from Skittles comercial :D\r\nRonald: Sth like that",
+            "output": "Julia will call Ronald when she gets back. He has something to tell her."
+        },
+        "36": {
+            "input": "Mike: will call u back in 2 hrs, ok? \r\nMike: can't talk right now, sry\r\nMike: *sorry\r\nDale: cool, no problem\r\nDale: until then",
+            "output": "Mike will call Dale back in 2 hours."
+        },
+        "37": {
+            "input": "Gene: Did you get the package I sent you\r\nJack: No, when did you send it?\r\nGene: on Friday\r\nJack: shit I should have gotten it by now\r\nJack: send me the tracking umber I;ll check whats up\r\nGene: 12345678900",
+            "output": "Jack has not received yet the package Gene had sent him on Friday. She sent him the tracking number, so he could check the status of the shipment. "
+        },
+        "38": {
+            "input": "Iris: Anyone know how to fix this? Trying to remove myself from an expense: > This expense involves a person who has left the group, and thus it can no longer be edited. If you wish to change this expense, you must first add that person back to your group.\r\nKen: You got the email address of the person?\r\nIris: Doesn't say. But probably juls?\r\nLuke: Probably have to delete that expense and re-add it\r\nIris: I\u2019m gonna try\r\nLuke: It's the car right?\r\nKen: yip\r\nIris: gracias\r\nKen: fixed it - absorbed Juls extra cost so we can remove her from the group again\r\nGerardo: We will  need to add her towards the car rental price.\r\nKen: true that - let me know when you are doing that and I'll add her back in\r\nJulia: Ooops, that\u2019d be me\r\nKen: No worries, we got this :)\r\nJulia: let me know how much I owe u so I can wire :)\r\nKen: I guess by the end of the month \u2013 something unpredicted always pops up in the meantime so we have to recalculate again\r\nGerardo: Speaking of which, I\u2019m gonna ask the peeps leaving early to stay in the splitwise group until the end of the month\r\nKen: Sara, George\r\nGeorge: We will, my man\r\nGerardo: It\u2019s gonna be the $ for gas too",
+            "output": "Iris is trying to remove herself from an expense. Ken has fixed the problem. Julia will be added to the expense again later. Gerardo will ask the people leaving early to stay in the splitwise group until the end of the month. George will stay."
+        },
+        "39": {
+            "input": "Nathalie: have you thought about the holiday?\r\nPauline: me & tony are into greece really\r\nJacob: anywhere warm and sunny. greece cool\r\nAnthony: greece is warm sunny and cheapish\r\nNathalie: i guess cob we ok w that\r\nJacob: sure thing\r\nPauline: so august as we said?\r\nJacob: thats the thing. we need to be back by aug 10\r\nAnthony: what?? why??\r\nNathalie: sis wedding\r\nPauline: your lil sis getting married?!? lol\r\nJacob: she's not little. seen her tony?\r\nAnthony: worth a look?\r\nNathalie: shut up assholes. shes my sister for fucks sake\r\nPauline: idiots\r\nJacob: come one just kidding. we love you\r\nAnthony: we have no choice XD",
+            "output": "Nathalie, Pauline, Jacob and Anthony are thinking about spending holidays in Greece together in August. Jacob and Nathalie need to be back by August 10 because of Nathalie's younger sister's wedding. "
+        },
+        "40": {
+            "input": "Robert: Happy Christmas! Wishing you and Elena all the best for the Christmas season and a Happy New Year!\r\nSerge: Thanks, you too, Robert.\r\nRobert: By the way - please cancel the phone number for me that starts with 713. The one beginning with 304 is the only number for me now.\r\nSerge: OK, Robert. Is all OK?\r\nRobert: Well, I will tell you more in a few weeks, but in short from today I am looking for a new job.\r\nSerge: What? They sacked you? After your huge success in the Ukraine?\r\nRobert: That's life.\r\nSerge: Those fucking bastards.\r\nRobert: Well, I could see it coming, ever since the merger. The Swedes didn't even bother to find out what people did before they started laying them off.\r\nSerge: Send me your CV, I know one Belgian guy who is thinking of opening a new factory here. Can't promise anything, but at least I can try.\r\nRobert: Serge, I really appreciate that.",
+            "output": "Robert has a new phone number starting with 304. Robert has lost his job and is looking for a new one. Serge offers to pass on Roberts CV to a contact. "
+        },
+        "41": {
+            "input": "Don: The CSS tests are today.\r\nHank: I know! Have you registered in their system?\r\nDon: No, not yet.\r\nHank: I'm not sure if I have to fill out all the fields. Most of them don't even apply to Rodney. It's strange that they're incorporating such professional tests for little leaguers.\r\nDon: Hmm... I don't know. I'll check it later tonight when I get home. Apparently it's supposed to be a database of all the young up-and-coming hockey stars. Scouts use that information for future contracts, etc.\r\nHank: OK, but our kids are 10 years old! They're not signing any contracts for now :)\r\nDon: Well, obviously not, but it's kind of cool that they'll be in a world database of peewee hockey players.\r\nHank: Yeah, I guess. So apparently the tests are supposed to last 5-8 pm. 3 hours! I'll probably wait and work on the computer.\r\nDon: Bring a blanket :) It can get mighty cold sitting in a rink for 3 hours.\r\nHank: No shit :) Are you coming.\r\nDon: Well, since you're going anyway, maybe you can take my kid :) \r\nHank: Hey, that's not fair! \r\nDon: I'll take the kids next time, I promise!\r\nHank: Yeah, yeah, we'll see. I'll tell you about the tests when I bring Oscar and Roger back.\r\nDon: Ok, thanks again, I owe you.",
+            "output": "The CSS tests for the hockey players are today and will last 3 hours, starting 5pm. Hank will bring his son and Don's son as well. Don is glad."
+        },
+        "42": {
+            "input": "Rael: Gosh, I fucking hate my job!\r\nZach: Oops! Someone is in a mood...\r\nRael: I'm serious, I'm done. Those people are fucked up. I cannot stand it anymore.\r\nZach: Is it that bad?\r\nRael: Even worse...\r\nZach: What this time?\r\nRael: I don't even have time to eat my fucking lunch. It's not normal.\r\nZach: Did you talk to your manager?\r\nRael: Yeah, this retard doesn't get that we're humans not robots. I hate him.\r\nZach: You're gonna quit?\r\nRael: It's not that easy, I gotta find something. I don't want to leave without first finding a new job.\r\nZach: I see. Did you think about IT?\r\nRael: No, why?\r\nZach: Girl, it's the best place to work in! A lot of my friends started as software testers and they are really satisfied. Good money and no rat race.\r\nRael: Zach, are you crazy? I don't have technical studies.\r\nZach: You don't have to. If you have good analytical skills all you need is some online course - Udemy or something. People change their career after years of employment in totally different business. It's not that difficult, really. You should give it a try. Tech is our future.\r\nRael: Hmm... Maybe you're right. I'm still not sure what to do with my career, so... why not.\r\nZach: If you want, I can talk to my friends and they will give you some advice on how to start, what courses to choose and so on.\r\nRael: That would be great, thanks.\r\nZach: UW. In touch.",
+            "output": "Rael finds the atmosphere at her workplace to be unbearable. Many people switch their career paths and move to the IT sector. Rael only needs good analytical skills and an on-line course to start work in IT."
+        },
+        "43": {
+            "input": "Pam: Hey Robert, you said you cold help with Tom's birthday?\r\nRobert: Sure, what do you need?\r\nPam: I have to go shopping, cook and clean and I figured out I don't have time to pick up the balloons\r\nRobert: from where?\r\nPam: there this store in the city centre that sells these awesome floating balloons\r\nRobert: No problem just text me the address\r\nPam: bless you!\r\nRobert: ;)",
+            "output": "Robert will pick up floating balloons for Tom's birthday."
+        },
+        "44": {
+            "input": "Bob:<file_other>\r\nBob: I bought this game and I think you should too\r\nBob: We could play 2gether\r\nHarry: Sorry mate, no money to spend on this\r\nHarry: I've got broken car nad shitty job, so for now I can't think about such leisure\r\nBob: Sorry to hear that.",
+            "output": "Bob has bought a new game. Harry can't afford to do it at the moment."
+        },
+        "45": {
+            "input": "Joanna: I need to get the coffie stains out of my dress\r\nJoanna: Do you know any effective methods?\r\nEthel: What color is this dress?\r\nJoanna: It's ecru and the fabric is very soft\r\nEthel: Well, in such a case I wouldn't recommend fixing it by yourself because you can ruin the dress...\r\nEthel: Better leave it at the dry-cleaner's\r\nJoanna: You might be right, just hope it won't cost me an arm and a leg...\r\nEthel: There's a cheap one at Jagiellonska 3, they cleaned up all the stains from my favourite dress :)\r\nJoanna: Alright then, I'll give it a try, thanks Ethel! :)",
+            "output": "Joanna got her dress stained. Ethel recommends her dry-cleaner at Jagielonska 3. "
+        },
+        "46": {
+            "input": "Sam: <file_gif>\r\nSam: Good afternoon, is this available?\r\nLia: Hi, how can I help you?\r\nSam: I'm interested in this product. Are the earphones available?\r\nLia: Yes, they are.\r\nSam: where can I collect them?\r\nLia: Well, you can have them delivered to you through courrier - this costs \u00a34 (pay on delivery)\r\nLia: I'm afraid collecting them personally is a little difficult, as the product can only be collected in Garstang (where the company is located)\r\nSam: Okay.\r\nSam: Are they new? Do you have any other colors that white?\r\nLia: Completely new - we also offer grey and pink.\r\nSam: Then I would like the white ones please.\r\nLia: Okay, so I just need your address and telephone\r\nSam: The total costs \u00a3187 - can I lower the price to \u00a3180??\r\nLia: fraid not - company policy.\r\nSam: Oh, okay.\r\nSam: How long does it take for the product to arrive?\r\nLia: It generally arrives the next day, in rare instances it's longer.",
+            "output": "Sam bought the earphones which cost him \u00a3187 along with delivery expenses. The order should be delivered the next day."
+        },
+        "47": {
+            "input": "Mary: Did you tell your sister I am doing online job?\r\nMark: yes !\r\nMary: why\r\nMark: because she keep saying your good for nothing?\r\nMary: dint I tell you I don\u2019t care?\r\nMark: what happened?\r\nMary: see I don\u2019t want to prove anything to anyone..\r\nMark: I know\u2026 but I was just feeling proud so it was kind of show off\u2026\r\nMary: she is asking everyone\u2026 and trying to get to the people I am working for\r\nMark: really!! I am sorry for that\u2026\r\nMary: don\u2019t be! I understand your feelings\u2026  but u know how she is\u2026\r\nMark: I know!! :? \uf04c\r\nMary: don\u2019t be sad now its ok.. she cant do much about it\u2026 chill its ok but just be careful\r\nMark: I will be ..\r\nMary: btw it feels good that she is so jealous :P\r\nMark: lol my aim was to make her feel jealous\r\nMary: but i dont like it that she tries to contact the people i am working for ... what does she want?\r\nMark: may be she wants to confirm if its true... because its not easy to digest that your working from home and earning well!!!\r\nMary: whatever i just hate her\r\nMark: chill now .... :) love you\r\nMary: i am chilled :cool: ... love you too honey",
+            "output": "Mark told his sister that Mary is doing an online job. Mark's sister is contacting people to confirm it. Mark thinks she's jealous. Mary hates Mark's sister."
+        },
+        "48": {
+            "input": "Chris: <file_photo>\r\nChris: Maybe not he best photo XD\r\nChris: and im the middle one here\r\nChris: and you can bring swimming trunks as well because there's opportunity to go to jacuzzi in our garden :))\r\nTom: a jacuzzzzzi????\r\nChris: oohhhh yeeaahh\r\nTom: O my godddd.\r\nTom: Is it big enough for a few people? I feel I woul feel wierd out there on my own :)\r\nChris:  Yeee, for 5-6 people no problem.\r\nTom: So you and your brother will join me? :D\r\nChris: Yes hahaha meybe we can invite someone else or only our little group.\r\nChris: An maybe watch sth on TV or just make a conversation hhahaha\r\nTom: Wait you've got a tv outside????\r\nChris: well we can bring it there :P\r\nChris: From our living room\r\nTom: Do you have WiFi?\r\nChris: Yes\r\nTom: Nice, I only get 6GB on my phone when I get outside Ireland\r\nChris: Yeah, kind a low amount\r\nTom: Can't wait!\r\nChris: Me too! :)",
+            "output": "Chris and Tom are planning a meeting at Chris' place. Chris has a Jacuzzi in his garden. Chris has WiFi and can bring his TV outside. Tom has a low internet limit whenever he's outside of Ireland."
+        },
+        "49": {
+            "input": "Josh: I need to buy an iPad?\r\nJosh: do u think apple it's a good choice?\r\nBrian: Nope, u gonna pay to have the sign of apple  on yr fucking iPad.\r\nJosh: so what would u recommend?\r\nBrian: u mean brands?\r\nBrian: Samsung, Xiaomi, Sony\r\nBrian: depends on yr budget..\r\nJosh: let's say 2000..\r\nBrian: what about this ? <file_other>\r\nBrian: or this <file_other>\r\nBrian: actually, if u want samsung I can get it cheaper for u\r\nJosh: oh, good\r\nBrian: call me after work, ok?\r\nJosh: ok",
+            "output": "Josh wants to buy a tablet and doesn't know which brand he should choose. According to Brian, other brands are better than Apple and he can get a Samsung tablet cheaper. Josh will call Brian after work to talk about it."
+        },
+        "50": {
+            "input": "Jay: Bro. Have you heard that diamond is in Kenya? \r\nJoe: Yeah man. I know what you are thinking\r\nJay: \ud83d\ude02\ud83d\ude02  \r\nJoe: Bro. I dont have some cash to buy some tickets for the event.\r\nJay: Come on! Stop worrying about cash.\r\nJay: I will lend you then you can refund later.\r\nJoe: Okay.\r\nJay: And guess what?\r\nJoe: What\r\nJay: I have convinced Ruth and Paulette to accompany us\r\nJoe: Really?\r\nJay: Do i look like i am joking\ud83d\ude0f\ud83d\ude0f\r\nJoe: It's game on bro!!!!!!\r\nJay: Yeah. You know me.\r\nJay: But it is time you start paying me.\r\nJay: I can't be hooking up you with new girls every time we have a concert.\ud83d\ude02\r\nJoe: \ud83d\ude02\ud83d\ude02 cut the crap\r\nJoe: Just wait next time. I'll be the one doing the connections.\r\nJay: Okay. Can't wait.",
+            "output": "Jay will lend Joe money for the ticket for the event. Ruth and Paulette will accompany them."
+        },
+        "51": {
+            "input": "Geri: I need to buy some new shoes\r\nHilary: what kind?\r\nGeri: some nice heels\r\nGeri: something sexy\r\nHilary: I sa spome great ones at the mall yesterday\r\nGeri: great! thanks\r\nGeri: wanna go together check them out\r\nHilary: ok maybe 2morrow\r\nHilary: after work?\r\nGeri: sounds good\r\nGeri: we can get some frozen yogurt\r\nHilary: Oh yeah\r\nHilary: I love that place!\r\nGeri: it's been a while since I had some\r\nHilary: it's a plan\r\nGeri: ok I'll be in touch\r\nHilary: ok :)",
+            "output": "Geri and Hilary will go to check out some sexy heels for Geri tomorrow after work. They will also have some frozen yoghurt. "
+        },
+        "52": {
+            "input": "Andre: i just read the news about the bear attack on the zoo :-(\r\nAndre: yikes - i would've never had imagine something like that could happen\r\nMegan: that's why I always say you can't keep animals y cages!!!\r\nMegan: it's cruel and it's wrong!!!\r\nMegan: i'm not surprised the bear reacted that way",
+            "output": "Andre is shocked after reading the news about a bear attack at the zoo. Megan is not surprised that an animal kept in a cage reacted that way."
+        },
+        "53": {
+            "input": "Martin: Uhhh, babe, we need to talk\r\nNicole: What's wrong?\r\nMartin: I'd rather tell you in person, when can we meet up?\r\nNicole: I'm afraid I'll be kind of busy the next few weeks, a lot of people at my work quit so it's been hell\r\nNicole: Can't you just tell me now??\r\nMartin: I don't know, it just doesn't feel right...\r\nNicole: Oh God, just tell me already!! What is it\r\nNicole: Do you wanna break up? Is there someone else?\r\nMartin: No one! I swear\r\nNicole: Huh... you didn't say no to the break up part though\r\nMartin: I mean... it's not that I want to but... I guess that depends on you... because there's something you should know\r\nNicole: What is it... You're making me anxious\r\nMartin: I'm, well... I'm asexual\r\nMartin: I thought you should know because... well... I know it can be a problem in a relationship\r\nMartin: I just wouldn't want you to feel unhappy with me\r\nMartin: It's not like I can't have sex, but it's just not the same for me as for other guys, I guess\r\nMartin: I love you but I want you to be happy, so I thought you should know\r\nNicole: Well... I'm a little speechless, that's not what I expected, but I don't think it has to be a problem... I don't want to break up like this, let's give it a try first",
+            "output": "Martin is asexual. Nicole doesn't want to break up for this reason. She wants to give their relationship a try."
+        },
+        "54": {
+            "input": "Charlotte: Hello Paula, a funny question: how do you pronounce 'Natal lily', the name of the plant? It refers to the region of ZA and not to the word 'natal' as in 'his natal day', right?\r\nPaula: Hi Charlotte, 'nu tell', 'nu' as in 'number'.\r\nCharlotte: And the stress on the second syllable? Or the first?\r\nPaula: 2nd\r\nCharlotte: Thank you dear.\r\nPaula: <file_other>\r\nCharlotte: Lovely to hear your voice!!\r\nPaula: :$\r\nPaula: <file_other>\r\nCharlotte: :X",
+            "output": "Paula helped Charlotte with correct pronunciation of \"Natal lily\"."
+        },
+        "55": {
+            "input": "Adam: I have a juicy gossip for you guys ;)\r\nBorys: About whom?\r\nAdam: So apparently, Iga planned a weekend getaway with her boyfriend, but they had to cancel because he couldn't talk his group into changing the date of the presentation :D\r\nKatia: And she is pissed?\r\nAdam: What do you think? That is why they aren't sitting together since Monday ;)\r\nKatia: Who would have expected such a gossip girl from you :D",
+            "output": "Iga and her boyfriend are not sitting together since Monday, because they had to cancel their weekend getaway. It made Iga very angry. Iga's boyfriend failed to convince a group to change the date of the presentation."
+        },
+        "56": {
+            "input": "Dixie: Can I have Jason's phone number?\r\nJair: I dont have it\r\nDixie: Can you ask someone else to gimme?\r\nJair: Sure\r\nDixie: Ty\r\nJair: Ethan would send you in a min\r\nDixie: K",
+            "output": "Ethan will soon send Jason's phone number to Dixie."
+        },
+        "57": {
+            "input": "Matthew: I have a cold. Need y'all support. It's painful\r\nLisa: Fight it. Drink orange juice. Make some soup\r\nMatthew: I'll try\r\nLisa: I believe in u \r\nMatthew: Thank u. Apparently it's an allergy mixed up with virus\r\nLisa: Ahh it sucks. \r\nLisa: Take a rest from evrthg.  \r\nMatthew: Ikr. Hitting the hay now\r\nLisa: Good night 'Thew! ",
+            "output": "Matthew has a cold. He will drink some orange juice and go to sleep."
+        },
+        "58": {
+            "input": "Hugh: can you recommend a good dentist?\r\nHugh: I have a toothache and need a dentist urgently\r\nAndy: Im sorry mate\r\nAndy: try ProDent in the centre\r\nAndy: Dr Smith, Ive been a few times\r\nHugh: thanks, mate!\r\nWade: Ive heard all dentist in that clinic are good\r\nWade: I need to go for a checkup too, havent been to a dentist for ages\r\nHugh: You'd better go soon!\r\nHugh: I also havent been for ages and now it hurts horribly\r\nAndy: You should go today\r\nHugh: Im working late today\r\nHugh: I'll call them straight away and arrange sth for tomorrow maybe\r\nAndy: good luck! Take care!\r\nHugh: thanks, man",
+            "output": "Hugh has a toothache and needs to go to the dentist. Andy and Wade recommend him dentists at ProDent. Hugh will call ProDent today."
+        },
+        "59": {
+            "input": "Tobi: Have you been to the new club?\nNicholas: Cork?\nTobi: yes, this one\nSerena: waste of time\nElla: yes, huge disappointment\nSerena: we went there with Ella last weekend\nElla: because they had such a cool ad campaign\nSerena: you won't believe\nElla: it was empty\nElla: nobody there\nTobi: oh, shit\nElla: yes, that's the proper word\nNicholas: they need some time maybe?\nElla: maybe, but I won't risk again",
+            "output": "Ella and Serena went to Cork club last weekend. The club was empty and they did not like it."
+        },
+        "60": {
+            "input": "Lucy: Have you thrown the garbage out?\r\nLevy: I thought you were supposed to do that as per parents order\r\nLucy: i guess I will have to now",
+            "output": "Levy hasn't taken the trash out because parents didn't ask him. Lucy will do it."
+        },
+        "61": {
+            "input": "Mike: Can anybody do the washing up?\r\nMike: I did it last time\r\nMike: So now its your turn\r\nSara: I'll do it\r\nMike: Ok\r\nSara: But when I get back\r\nSara: From the cinema\r\nSam: You're going to the cinema?? With whom??\r\nSara: With Jack\r\nSam: Ahhhh\r\nSam: I thought that maybe I'll join you\r\nSara: Not this time ;-)))\r\nSam: <file_gif>\r\nSara: xDD",
+            "output": "Mike wants someone else to do the washing up this time. Sara agrees, but when she returns from the cinema she is at with Jack."
+        },
+        "62": {
+            "input": "Sebastian: It's been already a year since we moved here.\r\nSebastian: This is totally the best time of my life.\r\nKevin: Really? \r\nSebastian: Yeah! Totally maaan.\r\nSebastian: During this 1 year I learned more than ever. \r\nSebastian: I learned how to be resourceful, I'm learning responsibility, and I literally have the power to make my dreams come true.\r\nKevin: It's great to hear that.\r\nKevin: It's great that you are satisfied with your decisions.\r\nKevin: And above all it's great to see that you have someone you love by your side :)\r\nSebastian: Exactly!\r\nSebastian: That's another part of my life that is going great.\r\nKevin: I wish I had such a person by my side.\r\nSebastian: Don't worry about it.\r\nSebastian: I have a feeling this day will come shortly.\r\nKevin: Haha. I don' think so, but thanks.\r\nSebastian: This one year proved to me that when you want something really badly, you can achieve it.\r\nKevin: I want to win lottery and I never did :D\r\nSebastian: If you devoted your life to analyze all of the winning numbers, and with your math skills you could win.\r\nKevin: Devote myself and million dollars for lottery tickets.\r\nSebastian: Something like that xD\r\nKevin: I'm happy for you man.\r\nKevin: I really am\r\nSebastian: Thanks. It means a lot my friend :)",
+            "output": "Sebastian is very happy with his life, and shares this happiness with Kevin."
+        },
+        "63": {
+            "input": "Lorenna: Girls, Im sorry, I cant come to the party tomorrow :(\r\nLorenna: Emma has a fever and I need to take her to the doctor.\r\nAnn: Oh Im so sorry about her:(\r\nShirley: :( \r\nShirley: how's she feeling?\r\nLorenna: not too bad, but I need to stay at home with her for a few days.\r\nLorenna: she's sleeping now. \r\nAnn: give her a kiss from auntie Anna! :*\r\nShirley: and from me too! :*\r\nLorenna: thanks! :*",
+            "output": "Lorenna is not coming to the party because her daughter is ill. She is going to see a doctor with her. Ann and Shirley send kisses to the kid."
+        },
+        "64": {
+            "input": "Calum: Oh, please. There's an ad coming up to be a computer investigator and you can earn almost 80 thou.\r\nBethany: Riiiiight! Where?\r\nCalum: Exactly. \r\nBethany: I mean, that's pretty specialized. Could be true.\r\nCalum: Doubtful.\r\nBethany: At any rate, specialized so that equals hard to find a job in.\r\nCalum: Yep. You'd be on the help desk in no time! LOL!\r\nBethany: Better than asking if they want fries with that!\r\nCalum: Only slightly!\r\nBethany: I can't imagine talking to stupid users all day.\r\nCalum: Nightmare of epic proportions.\r\nBethany: No shit!\r\nCalum: Putting it delicately!\r\nBethany: LOL!",
+            "output": "Calum and Bethany doubt you can earn 80 thousands as a computer investigator. Calum and Bethany can't imagine taking to customers all day."
+        },
+        "65": {
+            "input": "Joe: Yo\r\nPete: Yo, sup?\r\nJoe: Wanna come over tonite? Gonna watch Deadpool 2 with the guys\r\nPete: Cool! Count on me\r\nJoe: Ok, I'm counting: 1, 2, 3...\r\nPete: Lol",
+            "output": "Joe is going to watch Deadpool 2 with his fellows and Pete will join them."
+        },
+        "66": {
+            "input": "Jim: Hello, welcome to the store, how can I help you\r\nFinn: Hello could you help me track my shippment?\r\nJim: yes, can you please tell me your order number\r\nFinn: It's 45678\r\nJim: Thank you, from what I can see your package has left the warehouse and will be delivered to you tommorrow",
+            "output": "Jim tracks Finn's package number 45678 which will be delivered to him tomorrow. "
+        },
+        "67": {
+            "input": "Kate: can i borrow your blue handbag?\r\nEmilly: sure, when do you need?\r\nKate: friday, I need it for Monica's wedding\r\nEmilly: I can bring it with me to the office tomorrow if you want\r\nKate: perfect! thanks sister :*\r\nEmilly: always :*",
+            "output": "Kate wants to borrow Emily's blue handbag as she needs it for Monica's wedding. Emily will bring it with her to the office tomorrow. "
+        },
+        "68": {
+            "input": "Dan: look, i'm sorry\r\nDan: please text back\r\nDan: I'll explain everything if you agree to meet up\r\nAngela: there's nothing to explain\r\nDan: please Angela, hear me out first\r\nAngela: should i trust you\r\nDan: let me show you why you should.\r\nAngela: Okay, meet me at school later\r\nDan: Okay",
+            "output": "Dan wants to apologize to Angela. They will meet at school later."
+        },
+        "69": {
+            "input": "Sue: Call me when you get this.\r\nSue: it's important\r\nSteve: OK, I'm calling",
+            "output": "Steve is calling Sue at her request."
+        },
+        "70": {
+            "input": "Ariana: I think I am going shopping\r\nAviana: Where? \r\nAviana: Midtown? \r\nAriana: Yeah\r\nAriana: I wanna buy some stuff\r\nAviana: I wish I could go with you \r\nAriana: Thats ok \ud83d\ude42",
+            "output": "Ariana will do shopping in Midtown. Aviana can't join her."
+        },
+        "71": {
+            "input": "Maria: Who's gonna be at IMF lecture tomorrow? We can discuss all remaining questions after and do the calculations?\r\nAlexander: I don't attend that class, but it is fine by me to meet\r\nSarah: I will not be there, sorry. I am working\r\nMartha: So when? We are due on Monday\r\nMartha: That doesn't leave many options\r\nAlexander: On Saturday I already have to meet for another presentation, so my option is Friday afternoon or tomorrow\r\nSarah: Tomorrow and on Friday I am available from 5pm, during the weekend for the whole day\r\nLawrence: I am meet after class anytime or make time over the weekend if needed\r\nSarah: So can we meet tomorrow evening? 17:15?\r\nAlexander: It is fine by me\r\nLawrence: I will be late, but you can start without me",
+            "output": "Maria suggests to meet after the IMF lecture to discuss the presentation which is due on Monday. Maria, Alexander, Martha and Sarah will meet tomorrow at 17:15. Lawrence will be late."
+        },
+        "72": {
+            "input": "Sam: Where are you?\nKate: downstairs\nSam: already?\nKate: sure, come down\nJeff: We're in the little room next to the reception\nKate: have you noticed the woman making a cake?\nSam: yes\nKate: did you see the cake?\nSam: I didn't pay attention, why?\nKate: there was a huge penis on it\nKate: made of marzipan or sth\nSam: hahah, really?\nKate: when I noticed it, I started laughing\nKate: so she laughed too\nSam: nice\nKate: I asked her what's she doing\nKate: Somebody ordered a cake with a huge penis with balls and chocolate hair\nSam: hahah, I must see it!\nKate: she is working in the small room under the stairs\nSam: right, there is a kitchen",
+            "output": "Kate and Jeff are downstairs in a room next to the reception. Some lady is making a marzipan cake. "
+        },
+        "73": {
+            "input": "Jose: merry christmas!\r\nRicky: Merry Christmas!\r\nAmanda: Happy holidays!\r\nAmanda: And a happy new year\r\nRicky: 2019 will be awesome!!\r\nRicky: So many adventures to come!!\r\nJose: I can't wait for the summer to come\r\nAmanda: Me too!!\r\nRicky: I'm excited to go to Cuba\r\nJose: I'm more than happy to be your guide\r\nAmanda: 2019 will bring us lots of traveling\r\nJose: Cuba, Mexico, Thailand!\r\nAmanda: And more!",
+            "output": "Jose Ricky and Amanda are very enthusiastic about the new year as they will travel a lot during the summer of 2019."
+        },
+        "74": {
+            "input": "Jamilla: remember that the audition starts at 7.30 P.M.\r\nKiki: which station?\r\nJamilla: Antena 3\r\nYoyo: roger that",
+            "output": "The audition starts at 7.30 P.M. in Antena 3."
+        },
+        "75": {
+            "input": "Derek McCarthy: Filip - are you around? Would you have an Android cable I could borrow for an hour? I'm almost out of charge and I have a power pack  but forgot my cable\ud83d\ude2d\r\nTommy: I am in Poland but can ring my wife and she will give you one\r\nTommy: Do you want me to?\r\nTommy: 67 glenoaks close\r\nDerek McCarthy: That would be great if you could!! Otherwise I'm sitting here in the dark for an hour <emoticon_smile>\r\nTommy: Put it in gps and start driving\r\nDerek McCarthy: <emoticon_thumbup>\r\nTommy: She might be at work for next 15 min but will help you for sure\r\nDerek McCarthy: Thanks a lot mate\r\nTommy: Sent her msg. She will give it to you. Approx time when she will be at home is 8:15 pm\r\nDerek McCarthy: Thanks again!! What's your wife's name  again??\r\nTommy: Paulina",
+            "output": "Derek McCarthy will pick up an Android cable from Tommy's wife at 8:15."
+        },
+        "76": {
+            "input": "Monica: How are you doing?\r\nGaia: I'm fine, mum.\r\nMonica: All good at the university?\r\nGaia: A lot of work, but all good.\r\nMonica: I guess you'll have a lot of exams this term\r\nGaia: 6\r\nGaia: But only one is really hard ",
+            "output": "Gaia has 6 exams this semestre. One is very difficult."
+        },
+        "77": {
+            "input": "Yaz: Hi babes, you off out Friday, I need to get my freak on!\r\nTania: Why the hell not, college work is really doing my head in with the deadlines!\r\nYaz: Seen Sophie lately, her and lover boy are looking well serious!\r\nTania: Yeah, saw her in the canteen a couple of days ago, she's thinking of breaking up before Uni. Cutting ties etc\r\nYaz: Well, maybe not so serious after all then!\r\nTania: Best to go there single, in my opinion!\r\nYaz: Yeah, not got much choice in the matter. Maybe I'll meet my dream woman there!\ud83d\ude00\r\nTania: Why the hell not?! I can't wait to get out of here and up to Manchester, only 4 months and a bit, now!\r\nYaz: Christ, that came around quick, just the little matter of A Levels and getting into Exeter to deal with. I need such high grades for my course, medicine is a cut-throat world.\r\nTania: Hope not! If anyone is suited to becoming a Dr love, it's you, I am positive of it!\r\nYaz: Hope you're right, babes! Anyway, pub Friday at 8ish?\r\nTania: Hell, yes! See you!",
+            "output": "Yaz and Tania will go to a pub on Friday around 8. Sophie is thinking of breaking up with her boyfriend before Uni. Tania is going to Manchester in 4 months. Yaz wants to study medicine in Exeter, so she needs high grades."
+        },
+        "78": {
+            "input": "Aimee: Do you know where Maryam is?\r\nSoren: Nope\r\nSoren: You tried his number?\r\nAimee: Yes\r\nAimee: I even went to her home\r\nSoren: She might have gone somewhere with his father\r\nAimee: Maybe",
+            "output": "Aimee is looking for Maryam."
+        },
+        "79": {
+            "input": "Matt: Do you have Patrick's phone number? He's not picking up my calls...\nMatt: Is he mad at me?\nMary: Sure, here you go: +44 7700 900077\nSusan: He changed his number :)\nMatt: phew, thanks!",
+            "output": "Mary is giving Matt Patrick's new phone number."
+        },
+        "80": {
+            "input": "Grace: The hand sanitizer by the restrooms is empty. Do we have a refill/\r\nMike: Yes, no problem. I'll get to it right away.\r\nGrace: Thx.",
+            "output": "Mike will refill the hand sanitizer on Grace's request."
+        },
+        "81": {
+            "input": "Maddie: What's the story with Claire?\nIan: Claire?\nIan: I don't know any Claire...\nMaddie: Really?\nMaddie: I spoke with Leah and she told me that you dumped her years ago\nIan: are you sure she was talking about me?\nIan: I tend to forget things but I do remember my past girlfriends\nIan: and believe me none was named Claire\nMaddie: Weird\nMaddie: Maybe she was thinking about someone else?\nIan: most likely\nIan: I barely know her\nIan: I think we met for the first time like 1,5 years ago\nMaddie: I'll ask her next time\nMaddie: Sorry about the confusion\nIan: don't worry\nIan: take care!",
+            "output": "Maddie is confused, because Leah told her that Ian was dating a girl named Claire. Ian met Claire about 1,5 years ago, but they barely knew each other."
+        },
+        "82": {
+            "input": "Steve: BTW, USA won last night!\r\nGulab: I forgot to check!\r\nSteve: England playing tomorrow at 2:00!\r\nGulab: That's right, Croatia?\r\nSteve: Yep.",
+            "output": "USA won last night. England is playing against Croatia tomorrow at 2."
+        },
+        "83": {
+            "input": "Hugh: <file_photo>\r\nJulia: is that your son? He's lovely!\r\nJoan: What a cutie! Congrats!\r\nHugh: Thanks!",
+            "output": "Hugh shares a photo of his son with Joan and Julia. "
+        },
+        "84": {
+            "input": "Mika: Dear  Linda, would you like a few plants For your garden? All perennials.It would be a shame to throw them onto the compost heap.\r\nLinda: Hello Mika: A nice offer, thank you, but I won't manage to do any gardening before leaving.\r\nMika: What a pity!",
+            "output": "Linda refuses to accept plants for her garden from Mika. She would not be able to plant them before leaving."
+        },
+        "85": {
+            "input": "Leticia: would any of you have 10$ and could lend it? I'm really in need, I will gve it back as soon as possible\r\nLora: sure\r\nLora: is everything ok?\r\nLeticia: actually no...\r\nLeticia: I've lost my wallet, or someone stole it...i'm not sure but i always take care of my stuff so that's even more weird\r\nMiranda: shit...that's bad\r\nMiranda: if you need any help I'm also here\r\nLeticia: thank you girls, really\r\nLora: you better call the bank and block your account\r\nLeticia: I've already done it\r\nMiranda: did you have like a lot of money in this wallet?\r\nLeticia: fortunately not...you know i hate dealing with cash\r\nLora: at least that...\r\nLeticia: yeah...but i'm afraid i'll have to get new documents and i have no time for that :///////////\r\nMiranda: don't worry, maybe there will be some good person who posts it on lost/found\r\nLeticia: I hope so",
+            "output": "Leticia lost her wallet with cards and documents and needs to borrow 10 dollars. Miranda and Lora offer help. The girls hope somebody will find the wallet and give it back."
+        },
+        "86": {
+            "input": "Natalie: can you send me the recipe for your famous cheesecake, please?\r\nMonica: Sure, just a sec\r\nMonica: <file_photo>\r\nNatalie: Thank you, yummmmmmie <3",
+            "output": "Natalie wants Monica's cheesecake recipe."
+        },
+        "87": {
+            "input": "Eric: MACHINE!\r\nRob: That's so gr8!\r\nEric: I know! And shows how Americans see Russian ;)\r\nRob: And it's really funny!\r\nEric: I know! I especially like the train part!\r\nRob: Hahaha! No one talks to the machine like that!\r\nEric: Is this his only stand-up?\r\nRob: Idk. I'll check.\r\nEric: Sure.\r\nRob: Turns out no! There are some of his stand-ups on youtube.\r\nEric: Gr8! I'll watch them now!\r\nRob: Me too!\r\nEric: MACHINE!\r\nRob: MACHINE!\r\nEric: TTYL?\r\nRob: Sure :)",
+            "output": "Eric and Rob are going to watch a stand-up on youtube."
+        },
+        "88": {
+            "input": "Anthony: Hi Rob, wanna grab a beer?\r\nRobert: I\u2019m with my kids now\r\nRobert: Maybe later\r\nRobert: Around 9?\r\nAnthony: It\u2019s ok\r\nAnthony: I\u2019ll go with Andrew\r\nAnthony: In the evening I can\u2019t\r\nAnthony: I\u2019m taking my lady for a date :P\r\nRobert: Enjoy!",
+            "output": "Anthony can't meet up with Robert at 9 as he has a date then."
+        },
+        "89": {
+            "input": "Benjamin: Hey guys, what are we doing with the keys today?\r\nHilary: I've got them. Whoever wants them can meet me at lunchtime or after\r\nElliot: I'm ok. We're meeting for the drinks in the evening anyway and I guess we'll be going back to the apartment together?\r\nHilary: Yeah, I guess so\r\nDaniel: I'm with Hilary atm and won't let go of her for the rest of the day, so any option you guys choose is good for me\r\nBenjamin: Hmm I might actually pass by at lunchtime, take the keys and go take a nap. I'm sooo tired after yesterday\r\nHilary: Sounds good. We'll be having lunch with some French people (the ones who work on the history of food in colonial Mexico - I already see you yawning your head off)\r\nBenjamin: YAAAAWN \ud83d\ude4a Where and where are you meeting?\r\nHilary: So I'm meeting them at the entrance to the conference hall at 2 pm and then we'll head to this place called La Cantina. Italian cuisine, which is quite funny, but that's what they've chosen\r\nBenjamin: Interesting \ud83d\ude31 To be honest, Hilary, I almost feel like changing my mind. Wanting to take this nap might end up costing me to dear\r\nHilary: Oh come on \ud83d\ude02\r\nBenjamin: All these terrible obstacles on mu way to bed might just prove to much to take\r\nHilary: We'll try to avoid talking about their subject of research. Oh wait, no, I'm actually meeting them because I wanted to chat about their research lol\r\nElliot: \ud83d\ude49\r\nHilary: Do join us, we're going to have fun. And then you'll take the keys and take this most deserved of naps\r\nElliot: Sounds like a plan \ud83d\ude02\r\nHilary: \ud83d\ude0e\r\nElliot: See you at 2 then xx",
+            "output": "Hilary has the keys to the apartment. Benjamin wants to get them and go take a nap. Hilary is having lunch with some French people at La Cantina. Hilary is meeting them at the entrance to the conference hall at 2 pm. Benjamin and Elliot might join them. They're meeting for the drinks in the evening."
+        },
+        "90": {
+            "input": "Lorena: Hi, can you help me with something?\r\nMartin: Well, I can try.\r\nMartin: Depends what it is?\r\nLorena: I got a new desk and it comes with assembly instructions but I give up, I just can't do it.\r\nLorena: I'm illiterate when it comes to instructions, haha.\r\nLorena: So I could really use some help...\r\nMartin: Hmm, I can't today, but how about tomorrow? Shouldn't take long anyway.\r\nLorena: Yeah, it's fine! I just need it for the weekend, but tomorrow's great! Sorry for troubling you again.\r\nMartin: Don't mention it, we've known each other for so long it's almost like we're siblings, haha.\r\nLorena: Thanks a lot! I should be home by 6, so let me know when you can.",
+            "output": "Martin is going to help Lorena assemble a new desk. He is coming to her house tomorrow."
+        },
+        "91": {
+            "input": "Lisa: have you ever heard about this diet??\r\nLisa: <file_other>\r\nVictoria: Nooo\r\nVictoria: Hmm, seems interesting\r\nAmelia: YES!! My mum was on that crazy diet..... She gained 5 pounds (\u30fc_\u30fc)!!\r\nLisa: omg, glad that I asked\r\nLisa: <file_gif> ",
+            "output": "Lisa is no longer interested in the diet now Amelia has informed her that her mum put on weight doing it.  "
+        },
+        "92": {
+            "input": "Suzy: don't forget to follow me on Instagram :P\nLinda: do I need to? :P\nSuzy: come on, nice pictures ;)\nLinda: done\nSuzy: :)\nLinda: you're welcome ;)",
+            "output": "Suzy urges Linda to follow her on Instagram and she obliges."
+        },
+        "93": {
+            "input": "Mark: So, we've got our where and when. Package tour or self-organised?\r\nAnna: Package. More convenient.\r\nGeorge: Self-organised. Cheaper.\r\nJulia: Do we need a 5* hotel? MAybe let's choose one of the cheaper options from a tour operator?\r\nMark: Actually, not a bad idea. That'll be both cheap and convenient.\r\nAnna: I'm in!\r\nGeorge: So, let's start digging and we'll talk about it l8r?\r\nMark: SLAP\r\nJulia: Ok. But maybe let's divide ourselves so that we don't check the same websites?\r\nGeorge: Ur right!\r\nAnna: Sure. XOXOXOX\r\nMark: Let's do this asap!",
+            "output": "They are going to do some research on holiday options and discuss them later. They will most likely choose a cheap offer from a tour operator."
+        },
+        "94": {
+            "input": "Ethan: who's going to see solstafir?\r\nNoah: solstafir! when?\r\nNoah: i had no idea they were playing\r\nArchie: I'm not :D.\r\nLeo: i'm going ofc!\r\nEthan: 21.11\r\nNoah: that's a wednesday... ehh...\r\nNoah: i'll have to see, might have to stay late at work...\r\nLeo: nooo you have to come\r\nEthan: yeah you have to!\r\nArchie: There are better concerts :P.\r\nNoah: i know, i would really like to see them, but yeah\r\nLeo: archie... :P\r\nEthan: don't mind him :P\r\nNoah: i'll see and let you know, it would really suck to miss them\r\nLeo: yup!\r\nEthan: yup! x2",
+            "output": "Ethan and Leo are going to see S\u00f3lstafir on 21.11. Noah would like to go too, but he might have to stay late at work."
+        },
+        "95": {
+            "input": "Sally: did you hear Borns' new album? :o\r\nRita: YES I DID\r\nRita: it's amazeballs\r\nSally: i know right??? God Save Our Young Blood\r\nRita: definitely my fav \r\nRita: that and Faded Heart\r\nSally: so good\r\nRita: i'm also pumped for Florence, her new single is out tomorrow\r\nSally: :o didn't know about it! ",
+            "output": "Sally and Rita like Borns' new album very much. Rita is also excited about Florence's new single which comes out tomorrow. Sally didn't know about it."
+        },
+        "96": {
+            "input": "Harry: heyyyy are you there??\r\nCindy: Yes dear what is it?\r\nHarry: Can you call Ela and tell her i need to talk urgent please pick my call.\r\nCindy: what happened now? an other fight :O\r\nHarry: please tell her\r\nCindy: MAN! you guys... am i some kind of a messenger service here?\r\nHarry: PLEASEEEEEEEEE ?\r\nCindy: ok doing.... but thats the last time.\r\nHarry: Yes like always:P\r\nCindy: Hate you seriously man.\r\nHarry: Thank you\r\nCindy: Done you can call her now.",
+            "output": "Ela is not taking Harry's phone calls. Cindy calls Ela at Harry's request."
+        },
+        "97": {
+            "input": "Greg: Hi Mum, how's the cat doing?\r\nPatti: I just rang the vets, she's fine!\r\nGreg: Thank God, been worrying about her all day!\r\nPatti: They said I can pick her up later. I'll pop home and fetch the cage after work. Should be there at 5ish.\r\nGreg: Good, see you at home, bye!",
+            "output": "Patti and Greg's cat is getting better, so Patti will pick it up later. Patti will come back home at around 5 pm."
+        },
+        "98": {
+            "input": "Rita: I need some info on you client.\r\nHelen: Which one?\r\nRita: Salvage Industries.\r\nHelen: Yeah? What do you need?\r\nRita: What's their major business.\r\nHelen: They are into waste disposal.\r\nRita: I thought so.\r\nRita: You think they are legit.\r\nHelen: What do you mean?!\r\nHelen: Of course, they are legit.\r\nRita: Got a favor to ask. Can you double check if they have no PR problems?\r\nHelen: I don't think so. But I'll check it for you.\r\nRita: You are a dear, Helen.\r\nHelen: I sure am:)",
+            "output": "Helen will do Rita a favour. She will do the research on Salvage Industries to find out if they have any pubic relations problems. "
+        },
+        "99": {
+            "input": "Dan: Fuck me guys, I wanted to wash my hands and the pipe under the wash basin literally exploded! \ud83d\ude31/\ud83d\ude02\r\nSteve: lol sounds like fun. What shall we do?\r\nAndrea: That's so ridiculous. I'll write to the owner now\r\nDan: Thanks Andrea. Or you can give me her address and I'll do it myself\r\nAndrea: No, no worries, it's no big deal\r\nDan: Thanks! \ud83d\udc93",
+            "output": "Pipe under the wash basin exploded when Dan wanted to wash his hands. Andrea is going to write to the owner about it."
+        },
+        "100": {
+            "input": "Abdellilah: Where are you?\r\nSam: work\r\nAbdellilah: What time you finish?\r\nSam: Not til 5\r\nAbdellilah: Are your bringing him over tonight:\r\nSam: No in the morning:\r\nAbdellilah: ok, what time?\r\nSam: About 9. Is that ok?\r\nAbdellilah: ok - see you then",
+            "output": "Sam won't finish work till 5. Sam is bringing him over about 9 am. Sam will see Abdellilah in the morning. "
+        },
+        "101": {
+            "input": "Kevin: Hey. Your mum has been calling me all day asking where you are.\r\nKevin: Where are you at?\r\nLilian: Ooh. My phone battery died\r\nLilian: But I called them and told them I am at Helen's place\r\nKevin: Okay.",
+            "output": "Lilian has already told them she is at Helen's place."
+        },
+        "102": {
+            "input": "Rob: Hey there, what's up?\r\nBob: Not much, watching the game. You?\r\nRob: Same. Having a few people over.\r\nRob: But the game is boring as fuck lol. That's why I'm writing\r\nBob: Yeah, true that\r\nRob: Any plans for the weekend?\r\nBob: Most likely the usual - run some errands, cook some food, go out for a few beers. Nothing super interesting have appeared yet :)\r\nRob: I've heard that Jim is planning to celebrate his birthday\r\nBob: Oh right, his birthday is like next Wednesday?\r\nRob: Yeah, normally that would make the next weekend a good time but he is going for a skiing trip with his family\r\nRob: So he said that he might organize something this weekend\r\nRob: Nothing super fancy - most likely a meetup with a few friends at some bar\r\nRob: Would you like to come?\r\nBob: Sure, that would be nice\r\nBob: But he has not invited me, so I don't want to be rude\r\nRob: Most likely because it is not a real party. When I see him I'll let him know :)\r\nBob: That would be cool - I actually haven't seen him in person for a while now :)\r\nRob: Yeah, facebook does that to people :)\r\nBob: ok, take care and see you on weekend!\r\nRob: yeah, see you then!",
+            "output": "Rob and Bob are watching the game. Bob will run some errands on the weekend. Jim's birthday is next Wednesday. He might organize a meetup this weekend. Bob will see Rob on the weekend."
+        },
+        "103": {
+            "input": "Vicky: Is everyone still at town sq? I might have to meet you all at fratellis\r\nAudrey: I can be there for 7.30pm assuming no traffic incidents!\r\nLudovica: Yes, we're here Vicky!\r\nGreg: Trying not to fall asleep having sat down at home! \ud83d\ude31 Will get down for around 7\r\nVicky: Heading to fratellis shortly\r\nMichelle: If you wait for me in front of Town Square, I shall be there in 10 mins\r\nLudovica: We'll leave town Square very soon! If you get to fratelli's before us, the booking is in Brandon\u2019s name!\r\nBrandon: 10 mins Michelle? We've just left\ud83d\ude02\r\nMichelle: Just closed the office and it's rainiiiing. Well...I have a nice car here looking at me \ud83d\ude01\r\nRyan: C'mon NO! No driving today.\r\nVicky: I\u2019m here!\r\nAudrey: Can't get a taxi so Marty and kids bringing me over... will be about ten mins x\r\nRyan: \ud83c\udf89 We're upstairs Audrey",
+            "output": "They are meeting at Fratellis, upstairs."
+        },
+        "104": {
+            "input": "Bob: you bitch... why you called Sarah?\r\nJill: because i want to.. who are you question me?\r\nBob: try whatever you can bitch you cant get me back\r\nJill: huh? excuse me i dont want you back so just fuck off\r\nBob: really then why your calling my girlfriend and sending her our pictures..\r\nJill: its just that i hate you and i dont want you to be happy :haha:\r\nBob: really bitch ? but u told her she cannot snatch me from you? \r\nJill: yesss! its fun to hurt her \r\nBob: i cant believe i was living with a bitch like you\r\nJill: oh yes and you would have lived if i wouldnt have kicked you out\r\nBob: What? huh! i left you.. dont remember you were begging me to love you not to leave you?\r\nJill: whatever.. i am glad i could make you angry and hurt you\r\nBob: ok thank you dear :)\r\nJill: thank you?\r\nBob: yes for saying all this, this is Sarah and all is good now... better luck next time?\r\nJill: get lost,",
+            "output": "Jill called Sarah. She also sent her some old pictures. "
+        },
+        "105": {
+            "input": "Euodia: What is tiktok?\nDomigo: You don't know what it is?o_O!\nDomigo: Shocking! o_O\nEuodia: I have no idea but my friends were talking about that \ud83d\ude36\ud83d\ude36\ud83d\ude36\nEuodia: And I felt a bit ashamed of not knowing what they all knoe about\nEuodia: *Know\nDomigo: That is hit application recently( ^^)\nDomigo: You can take some videos for yourself and edit it with music and special effects as you wish( ^.^)( ^_^)\nDomigo: And share it on YouTube or just with your friends\nEuodia: Why do they do that?\ud83d\ude15\ud83d\ude15\nDomigo: Cause it is new and interesting!(^0_0^)\nEuodia: Omg I don't understand why I feel so old(;_:)(;_:)\nDomigo: Come on people want something new all the time\ud83d\ude01\ud83d\ude01\nDomigo: I also think tiktok will become less and less popular at some point but it's fun for now \ud83d\ude06\ud83d\ude06\nDomigo: Try it(^0_0^)",
+            "output": "Euodia didn't know about TikTok application, so Domigo explained what it was."
+        },
+        "106": {
+            "input": "Bella: Will you be home tonight?\r\nClara: Wanna pop in?\r\nBella: I'd love to. But first have to see how dad's doing. \r\nClara: I won't be back before 7 though. Am at the gym.\r\nBella: No pro. Is 7:30 ok then?\r\nClara: Why don't we go and have a drink? It's Friday evening after all. Eh?\r\nBella: In actual fact I want to have a talk with you. I sort of need your advice.\r\nClara: Something happened?!\r\nBella: Not yet. I mean it's nothing dramatic. Just need to talk to you.\r\nClara: What about?\r\nBella: Myself I would say.\r\nClara: I've guessed so much! Very well. Come anytime after 7:30 and I'll fix us a snack. Beer? Wine?\r\nBella: Oh dear... I'd appreciate a snack but let me bring the wine.\r\nClara: OK CU.\r\nClara: But you'll have to park somewhere along the road as my drive's taken by my camper at the moment.\r\nBella: No pro.",
+            "output": "Bella wants to talk with Clara and she will come to her place after 7:30."
+        },
+        "107": {
+            "input": "Ann: What should I prepare 4 my dad's birthday?\r\nFiona: How old is he?\r\nAnn: turning 50\r\nFiona: wow, a round birthay, it must be sth big\r\nAnn: I know, but I don't have any idea\r\nFiona: surprise party?\r\nAnn: My dad hates dose\r\nFiona: ok, so what does he like?\r\nAnn: I don't know, he watch a lot of military movie\r\nFiona: well, a movie ticket is probably not what you thought of\r\nAnn: not even close\r\nFiona: Maybe some event. U know like bungee jumping or parachute jump\r\nAnn: that would be nice but he's afraid of heights\r\nFiona: damn, maybe sth you can do together\r\nAnn: well I was plannig dinner with the whole family, but that's not enough\r\nFiona: yes, there should be sth special also\r\nAnn:  I know, but I'm out of \r\nFiona: Let me think. Nothing with heights but maybe sth on the ground? Racing? Horse riding?\r\nAnn: ok, it's a good direction. Maybe some team play, we could go with the whole family\r\nFiona: u said he likes military... maybe paintball? \r\nAnn: I don't know how my mum will react but I like it :D\r\nFiona: I guess she's not into military\r\nAnn: not really, no. But it's dad's birthday so she has to accept it. Thx for the help\r\nFiona: no problem",
+            "output": "Ann doesn't know what she should give to her dad as a birthday gift. He's turning 50. Fiona tries to help her and suggests a paintball match."
+        },
+        "108": {
+            "input": "Richard: Hey we have to start \r\nRichard: doing our project real soon\r\nHoly: When is it due? \r\nRichard: 15 dec\r\nHoly: Omg \ud83d\ude31\ud83d\ude31\ud83d\ude31\r\nAnne: I completely forgot about it! \r\nAnne: You guys have time tomorrow? \r\nHoly: I am out of town! \r\nRichard: I do! \r\nRichard: Wanna meet up at Starbucks down 8th street? \r\nAnne: Sure\r\nAnne: After 3pm? Works out? \r\nRichard: Ya and We will start planning out stuff\r\nHoly: I will be back on Monday \r\nHoly: but I can do some research tonight\r\nHoly: And send them back to you\r\nRichard: Ok sure  \ud83d\ude09 ",
+            "output": "Richard's, Holy's and Anne's project is due on December 15. Anne and Richard are meeting tomorrow at Starbucks down 8th street at 3pm. Holy's out of town, but she'll do some research tonight and send it to them."
+        },
+        "109": {
+            "input": "Sally: Hi guys have you heard about Natalie?\r\nTom: No. What about her?\r\nJane: You're such a gossip girl, Sally!\r\nSally: Come on! I'm sure you're all curious.\r\nTom: I am. \r\nSally: Relax Jane, what's your problem?!\r\nJane: She told us in confidence, I don't think we should share it with others.\r\nGreg: Now I'm also curious\r\nHenriette: Tell us! \r\nHenriette: Is she pregnant? \r\nSally: \ud83d\udca3\ud83d\udca3\ud83d\udca3\r\nSally: Guess who's the father!!!\r\nHenriette: I knew it!\r\nHenriette: Is it Mike?\r\nSally: Dave!!! \r\nHenriette: WHAT????\r\nGreg: That's insane! ",
+            "output": "Natalie is pregnant with Dave. Jane didn't think Sally should share it with others as Natalie told them that in confidence. Henriette and Greg are surprised that the father is Dave not Mike."
+        },
+        "110": {
+            "input": "Jack: OMG STANLEY IS DEAD\r\nOliver: Wtf?\r\nStanley: I'm alive and well, dude\r\nJack: I meant Stan Lee, damn autocorrect\r\nStanley: I guessed that XD Yep, everybody's posting about it right now :(",
+            "output": "Stan Lee is dead."
+        },
+        "111": {
+            "input": "Kaylee: Enough is enough, I am blocking you now -_\r\nGavin: As if I care\r\nKaylee: I am blocking you, seriously \r\nGavin: Bye\r\nKaylee: You really don't care?\r\nGavin: Please go away you are too much irritating\r\nKaylee: :(",
+            "output": "Kaylee is blocking Gavin and Gavin doesn't care as he finds Kaylee too much irritating."
+        },
+        "112": {
+            "input": "Mark: Have you seen his new car?!!\r\nJeff: Dude, wtf, it's like insane. How the hell did he afford it???\r\nMark: No fucking clue, but the ride is legit\r\nJeff: Hell yeah, I'd drive this baby\r\nMark: Over my dead body:D I gotta be first one to try it out\r\nJeff: Yeah, you wish:D \r\nMark: wanna bet he'll let me first:D?\r\nJeff: 100 bucks dude, I'll bet your ass:D \r\nMark: hahaha deal!",
+            "output": "Jeff and Mark are amazed by his car. They bet 100 dollars who gets to drive it first."
+        },
+        "113": {
+            "input": "Dan: since I am not sure who all ate from the BBQ, I will Splitwise everyone equally. If you did not have any of the food from the BBQ, please feel free to remove yourself.\r\nAshley: Although I did not have any food, it looked delicious! Job well done, Dan\r\nDan: Thanks!\r\nSara: Ahhh so sorry I wasn\u2019t there :(\r\nKen: More food for us ;)\r\nSara: you\u2019re such a meaaanieee Ken!\r\nKen: Just kidding, sweetie :) but regrettably there are no leftovers for you\r\nSara: K I\u2019ll just remove myself since I didn\u2019t eat\r\nVicky: it was soo good! As usual, Dan = grill master :)\r\nEric: Gery and I cooked our own chicken and asparagus I believe.\r\nGerardo: Well,Dan the man cooked it. We only provided it.\r\nDan: indeed\r\nGerardo: Thanks Dan\r\nEric: cheers! \r\nGerardo: I removed us from the transaction Eric",
+            "output": "Dan cooked a successful BBQ meal and will split the bill via Splitwise. He invites everyone who did not eat to remove themselves. "
+        },
+        "114": {
+            "input": "Maria: Hi Spence, life treating you well?\r\nSpencer: Can't complain love, lots of commissions coming in and all that!\r\nMaria: Getting your name out there! Saw some of your new stuff on Instagram, liked it!\r\nSpencer: Yeah, thanks love! How's the call centre?\r\nMaria: Same old, same old. Can't wait to go part time next year, really want to get on with some freelancing.\r\nSpencer: Yeah, pity they won't allow it for a year. I'm on 16 fixed hours at the cafe which suits me great. I've then got the rest of the week to work on my illustrations.\r\nMaria: How do you get new clients, Spence? I really need to pick your brains sometimes!\r\nSpencer: Well, some of them saw my printing in the shops I sell to and contacted me directly, then there's the agency and my social media stuff. I probably get around \u00a31000  of work a month now, before commission and tax.\r\nMaria: Well that's just about liveable with the cafe wage, I imagine.\r\nSpencer: Yes, it's tight, but I am very frugal. Still have a hefty chunk going out on rent and bills.\r\nMaria: Hmm, I'll have to budget carefully when I do it.\r\nSpencer: Yes, but it's well worth it. I LOVE the work so much!\r\nMaria: Well, your passion is obvious! Your stuff is amazing!\r\nSpencer: Well, so was yours in Uni. Don't let your talent go to waste!\r\nMaria: You've inspired me, Spence. See you soon, hopefully!\r\nSpencer: See ya!",
+            "output": "Maria wants to work as a freelancer. Spencer is an artist. The agency and social media help him to get new clients. He earns around \u00a31000 a month. Spencer encourages Maria to develop her talent and to try freelancing."
+        },
+        "115": {
+            "input": "Ed: Sinners!! Sex is for married people\r\nValerie:  double sin if it\u2019s anything but missionary style!\r\nChris: Then you go get married & leave us all alone\r\nLor: You better hope all non sin living is worth it or your consciousness after death is going to be butt hurt for eternity lol\r\nAtnee: Ed, take it easy\r\nJessica: And the only purpose for sex is to make babies! !! That's it, hahaha \ud83d\ude02\r\nAtnee: Lol\r\nEd: Valerie , triple sin if you enjoy it!\r\nJessica: And only for procreation. :-))) And not to be enjoyed. :-)))\r\nMatt: Ed, Ok. See you in hell !! \ud83d\ude02\r\nEd: Matt , No you won\u2019t. I don\u2019t even look on the direction of another man",
+            "output": "Ed, Valerie, Chris, Lor, Atnee, Jessica, Matt are laughing at the sinfulness of the sex without marriage."
+        },
+        "116": {
+            "input": "Harriette: Have you ever gone ghost hunting? ;o\r\nJamie: Ghost hunting? Nah, not really... Have you?\r\nHarriette: Yeah, once when I was in high school! There was a run-down building in the neighbourhood and we went to investigate it with my friends\r\nJamie: How was it? Did you find something?\r\nHarriette: We didn't see any ghosts, haha\r\nHarriette: But let me tell you that I never thought I'd freak out this much at hearing a cat meow\r\nHarriette: There's just something about the atmosphere... that makes you overreact and find normal but unexpected things really creepy\r\nJamie: I guess that's part of the experience? :p\r\nHarriette: Yeah, if I could choose again, I'd probably still decide to go - I don't regret it! But I definitely wouldn't try something like that alone ^^;",
+            "output": "Jamie has never gone ghost hunting but Harriette did with her friends once in high school. They did not see any ghosts and she only got frightened by a cat's miaowing."
+        },
+        "117": {
+            "input": "Molly: listen I've got a free ticket to the Muse concert in Cracow, want to come with me?\nHannah: nah, I don't like them\nMolly: what about you Anna\nAnna: yassss please\nAnna: let's go! <3",
+            "output": "Molly and Anna will go to the Muse concert in Cracow."
+        },
+        "118": {
+            "input": "Laura: Hey I have bad news \r\nKristian: Is your mom ok? \r\nLaura: She passed away this morning\r\nLaura: \ud83d\ude2d\r\nKristian: Oh noo\r\nKristian: My condolences so sorry!\r\nAnne: I am so sorry to hear that \r\nLaura: She fought hard\r\nLaura: It was a hard battle\r\nKristian: You want us to come see you? \r\nAnne: We want to spend more time with u now\r\nLaura: Sure\r\nAnne: Stay strong girl ",
+            "output": "Laura's mom passed away this morning. Anne and Kristian are showing their support to Laura."
+        },
+        "119": {
+            "input": "Tina: I'll tell you something, this Emirate staff looks amazing, as movie stars\r\nAla: Oh yes, I know, that's for purpose \r\nAla: It's how it's suppose to be\r\nAla: They pay a lot of attention to the image\r\nTina: Looks nice, pleasure to observe\r\nTina: And I sucked at the airport, they've kept us one hour in the plane and finally I'll catch the evening flight back home\r\nTina: Could You imagine?\r\nTina: And you know, this way we had such a talkative pilot :-)\r\nAla: Oh, poor you\r\nAla: Pfff\r\nAla: And I'm on my way to a meeting\r\nTina: THE meeting?\r\nAla: Yes, keep your finger crossed\r\nTina: Sure, let me know how did it go\r\nAla: Ok darling, in touch",
+            "output": "Tina will catch the evening flight back home. Ala is on her way to the meeting. She will let Tina know how it went."
+        },
+        "120": {
+            "input": "Laura: Do you think you can tidy up my dreads for me this weekend?\r\nKas: Probably. Have to check my schedule with work first and let you know.\r\nLaura: <file_photo>\r\nLaura: <file_photo>\r\nLaura: <file_photo>\r\nLaura: They're really messy.\r\nKas: It'll take a couple of days to sort out the mess. I'll let you know tonight if I can do it.",
+            "output": "Laura wants Kas to tidy up her dreads this weekend. Kas will let her know tonight if she is available."
+        },
+        "121": {
+            "input": "Ania: Let's go together to the church tomorrow\r\nKasia: what a wonderful idea! to praise Mary the Queen of Poland together! So beautiful\r\nJan: Yes, let's do it!\r\nZuzia: I don't think a boy should go with us, find yourself other friends, some boys\r\nAnia: I agree, it's inappropriate ",
+            "output": "Ania, Kasia, Zuzia and Jan want to go to the church tomorrow. Ania and Zuzia do not find it appropriate to go to the church with a boy."
+        },
+        "122": {
+            "input": "Clara: Hi, what you up to?\r\nNeela: Not much, chilling out.\r\nClara: Just rewatching Dear White People on Netflix, love it!\ud83d\ude0d\r\nNeela: Oh yeah, heard of it, but not seen it yet? Any good?\r\nClara: Well, yes! I just said it was, LOL. It's about a fictional Ivy League University and the students in one House of Residence.\r\nNeela: Why is it called Dear White People?\r\nClara: That's the name of the radio show the main character, Sam, presents on college radio.\r\nNeela: Yeah, but why is it so good?\r\nClara: Well, it's mainly stories from the perspective of black students there, which I find very interesting. The characters are strong and likeable too.\r\nNeela: I suppose it's rather different from the UK, then?\r\nClara: It seems so, as there is a lot more racial awareness and discrimination there than here. It all kicks off when there is a Blackface party held by an elite group of white students, which gets out of hand.\r\nNeela: How's that?\r\nClara: Well, obviously, the black students try to break it up and there's also an incident where one guy, Reggie, gets a loaded gun pointed at him by a campus policeman after he gets into an argument with a white student. It may be at another party, though, I'm not sure of that.\r\nNeela: Oh, that sounds pretty strong stuff. What else happens?\r\nClara: Well, there is a young black guy called Lionel who is coming to terms with being gay and is finding his voice as a journalist. He unearths corruption at the uni and he and Sam also uncover some conspiracy theory stuff about secret societies.\r\nNeela: Well, I must say, it does sound good, I'll check it out soon!\r\nClara: Definitely, there is supposed to be a Series 3 coming up next year, really looking forward to it!\r\nNeela: Well, thanks Clara, I'm just watching the rest of a movie and I'll try Dear White People.\r\nClara: Don't blame me if you get hooked and stay up till 4!\r\nNeela: See ya, love!\r\nClara: Bye!",
+            "output": "Clara is rewatching Dear White People and strongly recommends it to Neela."
+        },
+        "123": {
+            "input": "Tiffany: buy me a burger on your way home\r\nRailey: ok\r\nTiffany: thx, sis :)",
+            "output": "Railey will buy Tiffany a burger."
+        },
+        "124": {
+            "input": "Noah: Hi there! The quince we talked about the other day... Are you still interested?\r\nSophie: Hello Noah, but of course I am.Thank you.\r\nNoah: Actually William went to collect the rest of them for you immediately. They're in a basket on our terrace, so you call collect them any time.\r\nSophie: That's very very kind of him! He's really a darling.\r\nSophie: We won't be going your direction any time soon I'm afraid. How long will they keep? Is it windfall?\r\nNoah: Both really but they all look very healthy. No bruises afa one can see. Or only odd small ones. They' be alright for a couple of days I guess. The weather's cool.\r\nSophie: It would be a shame if they rotted. I'll talk to Frank and maybe to the twins too and go back to you asap.\r\nNoah: OK.\r\nSophie: Hey Noah, the twins will be on their way from Notts tomorrow afternoon and passing Windfield. Is it alright if they pop in and collect the quince?\r\nNoah: Absolutely! In fact anyone can come any time and just take them from our terrace. Of course it would be great to see your twins again. Haven't seen them for ages!\r\nSophie: Well we don't see that much of them either :( They'll be coming home this weekend only because of Alexa's ceremony.\r\nNoah: Notts is 3 hours' drive away so small wonder they don't fancy it so much.\r\nSophie: I don't blame them! We're both happy they've been doing fine at college. Everything's absolutely fine. You don't have William at home all that often either, do you?\r\nNoah: He gets 5 days at Xmas by way of \"family care\" and 2 weeks off spread over the whole year but never longer that 5 days. They have a strict regime at the academy. But after all these years we've learned to cope with it. What worries me is that he seems to have no time to even think about getting married and start a family of his own.\r\nSophie: The fate of most military I guess. Hugely unfair I'd say. Like being married to your regiment!\r\nNoah: That's what it sounds like when he talks about himself! I never hear a girl's name! And when I ask, he gets brusque.\r\nSophie: Oh dear! What could it mean?\r\nNoah: No, not what you think! We know from Capt. Broomsberg about their common escapades. Plenty of women but only that sort of women. No strings.\r\nSophie: I never even imagined he might be gay! Surely not. But there must be sth else.\r\nNoah: We think he's just so obsessively career-minded. Nothing else counts for him.\r\nSophie: He's always been very strong-willed. And he knows what he wants. Well if I were you I wouldn't worry at all.\r\nNoah: You're probably right. But you know I'd love it so much to have plenty of grandchildren around me.\r\nSophie: They'll come, don't you worry! Look the twins will contact you about the quince. Alright?\r\nNoah: Sure. Thank you Sophie for a nice chat!\r\nSophie: Thank you for the quince!",
+            "output": "Sophie accepts some quince from Noah. Noah has left the quince in a basket on his terrace and the twins can pick it up any time. The twins are in college. Noah's son is in the military. He is still single but reportedly not gay."
+        },
+        "125": {
+            "input": "Sharon: My mum knows\r\nAhmed: Aaaand?\r\nSharon: She\u2019s angry, I\u2019m grounded\r\nAhmed: For fuck\u2019s sake you\u2019re 19\r\nSharon: But I still live with my parents, let me remind you -_-\r\nAhmed: So move out\r\nSharon: It\u2019s not that easy, hello\r\nAhmed: Move in with me, we would be together all the time :*\r\nSharon: I\u2019d have to go to work, I\u2019m still a student\r\nAhmed: Don\u2019t worry, I\u2019ll take care of you\r\nSharon: My parents will stop talking to me at all\r\nAhmed: So what\r\nSharon: I care about my parents, cmon!\r\nAhmed: But they\u2019re stupid\r\nSharon: Don\u2019t talk about them like that!! They\u2019re just\u2026 old and manipulated\r\nAhmed: How can you manipulated into being an asshole -_-\r\nSharon: Ok, I know you fell hurt by their behavior but stop it\r\nAhmed: You don\u2019t care about me\r\nSharon: I do! But my family is important to me, you should understand that\r\nAhmed: OK, whatever",
+            "output": "Ahmed wants Sharon to move in with him but she's afraid of her parents' reaction. Ahmed is angry."
+        },
+        "126": {
+            "input": "Martha: Hey, can I ask you a question?\r\nOphelia: Do we know each other?\r\nMartha: We don't, but do you mind if I ask you about the lenses from your profile picture? they are awesome and I would like to buy the similar ones\r\nOphelia: it's from Crazy Lenses. They have quite reasonable prices and very fast shipping.\r\nMartha: Thanks!!! I'll check them :)\r\nOphelia: No problem :)",
+            "output": "Martha likes Ophelia's lenses and wants to buy similar ones. Ophelia got them from Crazy Lenses."
+        },
+        "127": {
+            "input": "Freddie: What are you watching on Netflix? I've just finished Mad Men.\r\nKelly: I've just finished The Crown. \r\nFreddie: There should be new episodes coming soon.\r\nKelly: OMG! i can't wait! :)\r\nFreddie: Try Outlander or The Tudors in the meantime.\r\nJim: i'm watching I, Zombie.\r\nBob: try Grimm or Sabrina. They're both great!\r\nKelly: they are all horrible and disgusting! \r\nBob: i think they are funny. They're just TV shows don't take them too seriously. x \r\nGreg: I'm watching House of Cards though must admit the new series is boring.\r\nMike: i agree. not the same without Kevin Spacey! You should try The West Wing if you enjoy political dramas.\r\nGreg: Netflix original Bodyguard is supposed to be good from what I've heard.\r\nMary: I'm a bit ashamed to confess i enjoy stuff like Pretty Little Liars or Gossip Girl ;)\r\nNancy: don't be ashamed i enjoy them too! and my favourite one is Desperate Housewives!!!\r\nMary: I know! I watched it twice!\r\nAlan: I'm catching up with Friends.\r\nNancy: OMG! i used to love Friends!",
+            "output": "Freddie, Kelly, Jim, Greg, Bob, Mike, Mary, Alan and Nancy are watching different shows on Netflix."
+        },
+        "128": {
+            "input": "Linda: Hi Dad, I want to buy flowers for mum! But I don't remember which one she likes :(\r\nMichael: Well, she likes all the flowers I believe\r\nLinda: That doesn't help! I'm on a flower market right now!\r\nMichael: Send me some pics then\r\nLinda: <file_photo> \r\nMichael: Tulips are nice, roses too\r\nLinda:  What about carnations?\r\nMichael: No, carnations are boring :D\r\nLinda: Thanks Dad, srsly\u2026\r\nMichael:  What about freesias? She likes them a lot, are there any there?\r\nLinda: <file_photo> \r\nMichael: Take those!",
+            "output": "Linda wants to buy flowers for her mother and asks Michael which flowers does she like. Michael suggests Linda to buy freesias."
+        },
+        "129": {
+            "input": "Nick: You look absolutely gorgeous and have a lovely smile. \r\nNick: Would love to get to know you a bit more. How about we meet up for a drink sometime?\r\nJane: Hmmm... You're shooting a bit above your range aren't you?\r\nNick: Why would you think that hon?\r\nJane: Because I'm not that desperate.\r\nNick: That was a bit below the belt.\r\nNick: You're nice but you're not THAT hot.\r\nJane: Oh is your poor little dick shriveling at the thought?\r\nNick: Actually I'll take it back. Forget about the drink.\r\nNick: Forget I ever wrote to you.\r\nJane: Bye loser!\r\nNick: Fucking bitch!\r\nJane: You're welcome!",
+            "output": "Nick finds Jane pretty and invites her for a drink to get to know her better. Jane rejects Nick and is unpleasant to him. Nick suggests Jane to forget about their conversation."
+        },
+        "130": {
+            "input": "Joanne: hi, wanna talk?\nBradley: hi, sorry, not right now, im busy\nBradley: crazy day at work\nJoanne: sure, contact me, i gotta tell you something\nBradley: i will, ttyl",
+            "output": "Bradley is too busy at work to talk to Joanne now."
+        },
+        "131": {
+            "input": "Tricia: The cake is still not ready.\r\nZandra: Which cake?\r\nTricia: For your daughter\u2019s birthday, Tam ;)\r\nZandra: Oh, of course, there are so many of them, I don\u2019t even know what\u2019s going on.\r\nTricia: Sure thing, you need a hand ;]\r\nZandra: Thank you so much, what would I do without you\u2026\r\nZandra: But what about the cake, the party is tomorrow!\r\nTricia: You finally realized that\u2026 ;)\r\nTricia: They promised to have it tomorrow at Tricia: Zandra: .\r\nZandra: The party starts at Tricia: , it\u2019s way too late!\r\nTricia: I\u2019ll send Erwin to get it, he\u2019ll deliver it to us by bike ;D\r\nZandra: Bike\u2026 God save us all\u2026\r\nTricia: He\u2019s a good driver and has a special bag, it will be ok, I promise :*\r\nZandra: Ok, how about the rest? I have all decorations, starting with them in the morning after kids go to grandma\r\nZandra: I know nothing about the food and outside attractions\r\nTricia: Food I\u2019m taking care of, outside thing will be done by a company, they come and organize everything, don\u2019t worry\r\nZandra: You\u2019re the best, I have to make for it <3\r\nTricia: Nooo, no way, it\u2019s nothing.\r\nTricia: I know it\u2019s not easy for you with 4 children.\r\nZandra: Noo, it\u2019s not, but I regret nothing :*\r\nTricia: And that\u2019s the most important thing!",
+            "output": "Zandra's daughter, Tam, has a birthday tomorrow. The party starts at Tricia's place, so Erwin will deliver a birthday cake by bike. Zandra is taking care of the decorations, Tricia of the food and a company of the outside attractions. "
+        },
+        "132": {
+            "input": "Louis: Gotta go, my mom's calling me\nFabian: Ok, see ya\nLouis: See ya",
+            "output": "Louis finishes the conversation with Fabian because his mother is calling."
+        },
+        "133": {
+            "input": "Ricky: Did u guys see what's going on outside?\r\nShelly: A real blizzard!\r\nTom: Haven't seen such weather in yrs!\r\nRicky: This reminds me of a time when I was hiking in the mountains.\r\nShelly: U went hiking?\r\nTom: Yeah. What's so weird about it?\r\nRicky: U don't strike us as the type.\r\nTom: Well, I did. It was a couple yrs back, I admit. I was still a student and we went as a group of friends to the mountains.\r\nShelly: How many of u were there?\r\nTom: I think 5 or 6. Myself included.\r\nRicky: So what happened?\r\nTom: We rented a cabin in the wild. We wanted to have a weekend away.",
+            "output": "There is a blizzard going on outside. Ricky went hiking a couple years ago with friends. They rented a cabin in the wild."
+        },
+        "134": {
+            "input": "Clara: Did you notice that weird smell at Kasia's place last night?\r\nRon: YES!!!!!! I didn't want to say anything about it, though. I didn't want to be rude.\r\nClara: I think it was her 21 cats roaming around lol\r\nRon: lol don't say that, those cats were cute.\r\nClara: so what? they can still smell \r\nRon: i think it was her sleazy boyfriend\r\nClara: lol you're bad\r\nRon: jk\r\nClara: in all honesty I don't know what it was.\r\nRon: i guess we'll never know",
+            "output": "Clara and Ron are wondering what that weird smell at Kasia's place last night was."
+        },
+        "135": {
+            "input": "Wanda: Let's make a party!\r\nGina: Why?\r\nWanda: beacuse. I want some fun!\r\nGina: ok, what do u need?\r\nWanda: 1st I need too make a list\r\nGina: noted and then?\r\nWanda: well, could u take yours father car and go do groceries with me?\r\nGina: don't know if he'll agree\r\nWanda: I know, but u can ask :)\r\nGina: I'll try but theres no promisess\r\nWanda: I know, u r the best!\r\nGina: When u wanna go\r\nWanda: Friday?\r\nGina: ok, I'll ask",
+            "output": "Wanda wants to throw a party. She asks Gina to borrow her father's car and go do groceries together. They set the date for Friday. "
+        },
+        "136": {
+            "input": "Yvonne: How's uncle Sam?\r\nLucy: He's OK, just came back from work.\r\nChiara: We were worried about him. Dad told us he was in hospital.\r\nLucy: It's nothing serious, don't worry! How kind of you to write to us!\r\nYvonne: Auntie, you're like our second parents!\r\nLucy: <3\r\nChiara: <file_photo>\r\nChiara: It's us in Chicago 2 weeks ago.\r\nLucy: Wow, you looked stunning! \r\nYvonne: Thanks, it was at our cousins wedding.\r\nLucy: And how are you girls? Any nice boys in sight?\r\nChiara: Yvonne is dating a hot Argentinian!\r\nYvonne: Chiara, stop it!\r\nLucy: Oh, come on! Tell me the details!",
+            "output": "Uncle Sam was in hospital, but it was nothing serious. He and Lucy are like second parents to Chiara  and Yvonne. Chiara and Yvonne were in Chicago 2 weeks ago at their cousin's wedding. Yvonne is dating an Argentinian."
+        },
+        "137": {
+            "input": "Morgan: Hey gorgeous, how\u2019s your day?\r\nSuzanne: Nothing special, it\u2019s just one of many boring days at work. But\u2026 better now though!\r\nMorgan: Are you working at all? \ud83d\ude09\r\nSuzanne: I\u2019m trying \ud83d\ude09 But you aren\u2019t helping me, at all\r\nSuzanne: I\u2019m just taking a well-deserved break \ud83d\ude09\r\nMorgan:  I miss you Suzie\r\nSuzanne: I miss you too Morgan\r\nMorgan: Do you feel like going to a concert next week? Maroon 5 is playing at the Hulu Theater at Madison Square Garden.\r\nMorgan: As it happens, I\u2019ve got two tickets \ud83d\ude09\r\nMorgan: Do you want to go?\r\nSuzanne: Really? OMG! That\u2019s wonderful!\r\nSuzanne: Thank you sweetheart!\r\nMorgan: Oh, nothing. I just want you to be happy \ud83d\ude09",
+            "output": "Suzanne is at work and is having a break now. Morgan invites Suzanne to a concert of Maroon 5 which takes place next week at the Hulu Theatre at Madison Square Garden. Suzzanne agrees."
+        },
+        "138": {
+            "input": "Martha: how do you feel about minimalism?\r\nJake: I used to think it's total bullshit\r\nJake: like, it's still about spending\r\nJake: but it's about shifting the paradigm from buying cheap to buying expensive stuff\r\nMartha: if expensive lives longer, ofc\r\nJake: right\r\nMartha: I'm asking because I just saw this documentary about minimalism gurus\r\nMartha: and I felt mixed about it\r\nJake: I think it's a good idea to buy things that will serve you longer\r\nJake: but it's so difficult to be mindful about everything you buy\r\nMartha: I feel there are so many conflicting priorities when it comes to shopping\r\nMartha: if you want to buy durable stuff you usually pick brands you know, big brands\r\nMartha: and then it might not be fair trade product\r\nJake: take leather for example\r\nJake: if it's ecological it's cruelty free but it has higher carbon footprint than leather\r\nMartha: huh\r\nJake: so your values clash all the time when you shop\r\nMartha: :(",
+            "output": "Martha saw a documentary about minimalism."
+        },
+        "139": {
+            "input": "Keith: Have you heard anything about the cafes by the river?\nKeith: The ones that got damaged with the flods\nAdam: No I haven't\nAdam: But there was an article sometime ago, they want to re-build them\nAdam: But the cost to fix the damage is sky high\nKeith: It's really sad, it was a great place\nAdam: I know\nAdam: I miss going there\nKeith: Yeah :/",
+            "output": "Several cafes were destroyed when the river flooded. The cost of repair is exorbitant."
+        },
+        "140": {
+            "input": "May: Just received a text from Harry he'll be late\nMichael: It's good for us, Vanessa and I are still on our way and Peter's stuck in a traffic\nMay: Probably the same traffic Harry's stuck in ;/\nPeter: There's been an accident, I'm too far away to see what exactly happened but it doesn't look good\nMay: How long may it take? Half of the guests is already here\nVanessa: God knows, Michael's driving if you can call this driving...\nPeter: They're saying that there was a serious accident, I really don't know how long it will take\nMay: Harry just called, he's in the same traffic as you\nVanessa: It'll be a hell of a birthday party ;)\nPeter: It'll be easier if you all come and join us here\nMay: Hahaha, very funny\nMay: We'll wait for you, but better be here before Harry\nVanessa: You need to stall Harry then because we're all probably behind him\nPeter: Fyi, we haven't moved an inch in a while now",
+            "output": "Henry and Peter will be late for a birthday party. Michael and Vanessa are on their way. There was a serious accident, and Peter has no idea when they will manage to arrive. Henry will probably come before Peter."
+        },
+        "141": {
+            "input": "Greg: Hi there, I'm coming for a business trip soon and would stay for two nights longer in BG\r\nGreg: Could I stay at your place?\r\nNina: Sure\r\nNina: How could you possibly ask that at all\r\nNina: Happy to see you soon\r\nGreg: :-D\r\nGreg: Super cool, see you soon! Kiss\r\nGreg: I'm happy too\r\nNina: How do you come? Shall we pick you up from somewhere?\r\nGreg: No Dear. I'll be going directly to work, they are picking me up; two days at work and then back to a city \r\nGreg: Don't prepare anything, please!\r\nNina: Ok, we are in touch \r\nGreg: <3",
+            "output": "Greg asks Nina to accomodate him for two days while he's on a business trip."
+        },
+        "142": {
+            "input": "Brook: something happened yesterday, you need to come and see\r\nGyle: is it bad?\r\nBrook: you better come home\r\nGyle: On my way",
+            "output": "Brook wants Gyle to come and see what happened yesterday. "
+        },
+        "143": {
+            "input": "Michelle: OMG! OMG! OMG! Got news!\r\nRachel: C'mon! Spit it out!\r\nMichelle: You won't believe it!\r\nRachel: But what?\r\nMichelle: I can't believe it! So excited! \r\nRachel: Don't leave me hanging! Tell me.\r\nMichelle: You remember Monica? \r\nRachel: Yeah. The ugly one?\r\nMichelle: That's the one! \r\nRachel: What about her?\r\nMichelle: Well, we had an office party two months ago... \r\nRachel: So?\r\nMichelle: She got drunk and became really friendly with Ross... \r\nRachel: How friendly? :)\r\nMichelle: Like really friendly. Touching, kissing and so on... \r\nRachel: So? C'mon!\r\nMichelle: It turns out she's pregnant! \r\nRachel: You don't say!\r\nMichelle: Yeah! I know! \r\nRachel: She told him yet?\r\nMichelle: I don't think so. But there's more! \r\nRachel: More? This is going to be good!\r\nMichelle: Good? That's delicious!\r\nRachel: So?\r\nMichelle: Ross is \"happily\" married ;) \r\nRachel: I just spilt some water!\r\nMichelle: I know!\r\nRachel: Keep me posted!\r\nMichelle: Oh, I will. I will. Need to find out more. :) ",
+            "output": "Monica had sex with Ross at an office party two months ago. She's pregnant, but didn't tell Ross about it, who's married."
+        },
+        "144": {
+            "input": "John: Look, Bristol Stool Scale - perfect to read in the morning. <file_photo>\r\nHenry: :-/\r\nJohn: I was expecting a pic of your poop \r\nHenry: No, sorry :(\r\nJohn: Constipations are the worst!\r\nHenry: no no, I had a nice poop this morning! I never really am constipated.\r\nJohn: My man! :D\r\nHenry: Maybe I should write it on my tinder profile? \"Never really constipated\"\r\nJohn: I think it's a good metaphor.\r\nHenry: About emotions etc?\r\nJohn: Yes, like very psychoanalytic. And showing you're not pretentious.\r\nHenry: Hehe. Maybe still not the best strategy overall though.",
+            "output": "John sent Henry Bristol Stool Scale. John was expecting a pic of Henry's poop. Henry had a nice poop this morning but isn't willing to send a pic. "
+        },
+        "145": {
+            "input": "Lenny: Babe, can you help me with something?\r\nBob: Sure, what's up?\r\nLenny: Which one should I pick?\r\nBob: Send me photos\r\nLenny:  <file_photo>\r\nLenny:  <file_photo>\r\nLenny:  <file_photo>\r\nBob: I like the first ones best\r\nLenny: But I already have purple trousers. Does it make sense to have two pairs?\r\nBob: I have four black pairs :D :D\r\nLenny: yeah, but shouldn't I pick a different color?\r\nBob: what matters is what you'll give you the most outfit options\r\nLenny: So I guess I'll buy the first or the third pair then\r\nBob: Pick the best quality then\r\nLenny: ur right, thx\r\nBob: no prob :)",
+            "output": "Lenny can't decide which trousers to buy. Bob advised Lenny on that topic. Lenny goes with Bob's advice to pick the trousers that are of best quality."
+        },
+        "146": {
+            "input": "Rachel: I'm at the hospital, my aunt was in an accident...\r\nJessica: oh my God, is she alright?!\r\nRachel: Yes, she's bruised but she's fine\r\nRachel: Thank God...\r\nJessica: I'm so sorry, what happened?\r\nRachel: Some jackass was speeding and didn't see the red light...\r\nJessica: Did they catch him?\r\nRachel: Yes, he's gonna pay for the rehabilitation\r\nJessica: Better than nothing I suppose\r\nJessica: Give you aunt a hug from me, please (a light one :D)\r\nRachel: I will, thanks :*",
+            "output": "Rachel's aunt had an accident and she's in hospital now. She's only bruised. The perpetrator of the accident is going to pay for the rehabilitation. "
+        },
+        "147": {
+            "input": "Enrique: Thanks for sharing your collection with the class. They loved it!\r\nFarrah: No problem! It was my pleasure!\r\nEnrique: Not everyday you get to see some of those up close and personal like that. We were wowed!\r\nFarrah: Oh, gee, that's so nice!\r\nEnrique: You have a great collection, you should be proud!\r\nFarrah: I am, but not everyone appreciates it.\r\nEnrique: Fossils are a unique thing to collect, that's for sure.\r\nFarrah: If you leave them sitting around, they just become dust magnets!\r\nEnrique: So it's good to share them.\r\nFarrah: Especially with little kids, they get so amazed! It was a fun day.\r\nEnrique: It was for us as well! Will you come back again?\r\nFarrah: Of course! Any time!\r\nEnrique: I was thinking that our 4th grade students would like to check them out as well. Can I give your name and number to that teacher?\r\nFarrah: Sure thing. \r\nEnrique: I'm not sure how it fits into the lesson plan, so they may not get in touch until next semester.\r\nFarrah: Fair enough. No problem, I understand.\r\nEnrique: Thanks again! It was really interesting!\r\nFarrah: Of course! Any time, and now I have a better idea of other ones to bring next time.\r\nEnrique: That would be great.\r\nFarrah: Some of the questions really made me wish I had brought my whole collection, but that just isn't practical.\r\nEnrique: Oh, I understand. I'm sure you'll do fine next time with whatever you bring.\r\nFarrah: Thanks! \r\nEnrique: Our pleasure!",
+            "output": "Farrah shared his collection of fossils with the class, and Enrique was very impressed. Enrique would like Farrah to show the collection for the 4th grade students as well."
+        },
+        "148": {
+            "input": "Ian: Honey, do not you know where my green folder is?\r\nSophie: Green?\r\nSophie: I have no idea.\r\nIan: I was sure I left it on the dining room table.\r\nSophie: Maybe Alex put it somewhere.\r\nSophie: Ask her.\r\nIan: ok, thx :*",
+            "output": "Ian is looking for his green folder. Sophie hasn't seen it but maybe Alex will know."
+        },
+        "149": {
+            "input": "Celia: Where do you want to go for Holiday ?\r\nMike: I was thinking about Egypt\r\nCelia: Too hot. What about Croatia ?\r\nMike: Good idea, I've never been there",
+            "output": "Mike considers going to Egypt for holiday. It's too hot for Celia, she suggests Croatia instead. Mark likes the idea, he's never been there. "
+        },
+        "150": {
+            "input": "Maya: Bring home the clothes that are hanging outside\r\nMaya: All of them should be dry already and it looks like it's going to rain\r\nBoris:  I'm not home right now\r\nBoris: I'll tell Brian to take care of that\r\nMaya: Fine, thanks",
+            "output": "Maya wants Boris to bring clothes that are hanging outside. Brian will do that, because Boris isn't at home now."
+        },
+        "151": {
+            "input": "Tim: The situation there is terrible now\nJohn: I know and, honestly, I don't think it's gonna change any time soon\nJeremy: why? I think the world's attention is now on Kongo really\nJohn: exactly, too much money involved\nJohn: everybody wants it's resources, they are crucial for the US, for China, for everybody\nAlice: for our smartphones\nJohn: Exactly\nAlice: yes, I'm not very positive either\nTim: yup, just the same story all the time\nJohn: Ebola, war, militias, diamonds...\nTim: Hard to say what should be done\nJohn: Surely the elections were not done properly\nTim: this for sure",
+            "output": "The situation in Kongo is terrible because of its resources and politics."
+        },
+        "152": {
+            "input": "Kate: I just had a fight with Chris :/\r\nMary: Oh no, not again\r\nKate: It's not me who started it. I don't know why he says certain stuff, it seems like he's doing it on purpose\r\nMary: What was it this time?\r\nKate: Same thing, as always. Really, he knows what I think and I know what he thinks so I don't bring up certain things. I don't want to argue, but if it keeps happening, I don't see the point of talking to him\r\nKate: I'm angry every single time I talk with him\r\nMary: Eh, I don't get why he keeps doing it. What did he say?\r\nKate: I don't want to get worked up over it again, but really usual stuff. He watched a programme about the refugees and went on a rant about it\r\nMary: oh god\r\nKate: right?! I don't know why I'm still talking with him. I tried to talk some sense into him, apparently with no luck\r\nMary: What did you tell him?\r\nKate: What I usually tell him. He was an immigrant once, he was working abroad, I sent him all the data and research, statistics, everything.\r\nMary: I'm afraid Chris may be too pig-headed for that\r\nKate: Pfff I bet he didn't even read anything. He's just watching the nationalists, Trump and all those idiots, listens to everything they're saying on the telly instead of just thinking for once\r\nMary: I know, to be honest I kind of avoid these subjects when I'm talking with him\r\nKate: Well, I try to as well, but as you can see he can't stop himself\r\nKate: I know he's our friend and we go out often, but I'm not sure I can do it any more, I don't want be friends with someone who thinks that Mexican children are worse and that they should be kept away from the US\r\nMary: Oh my god he said that?\r\nKate: Yes :/\r\nMary: Jesus, I knew he has strong views, but to say something like that? That's a bit too much\r\nKate: You're telling me this. I think we should reconsider this let's say friendship, because if every conversation will lead to something like this, I'm not interested in staying in touch with him\r\nMary: No wonder",
+            "output": "Kate had a fight with Chris about refugees. He thinks the U.S. should not accept them. Kate and Mary do not share this opinion. They are having second thoughts about their friendship."
+        },
+        "153": {
+            "input": "George: Yo! Who wants to go play basketball on Friday, 7 p.m.?\r\nRobert: Count me in! \r\nYousuf: Can I come half an hour later? I need to help my sister with her car.\r\nGeorge: No prob. Paul, u coming?\r\nPaul: Hell yeah! I'll bring some beers too!\r\nRobert: Sounds like a plan!",
+            "output": "George, Robert and Paul are going to play basketball on Friday at 7. Yousuf will be late."
+        },
+        "154": {
+            "input": "Natalie: Could anybody check if my wallet is in my room?\r\nJenny: I'm not home\r\nTobias: It's here <file_photo>\r\nNatalie: phew",
+            "output": "Natalie's wallet is in her room."
+        },
+        "155": {
+            "input": "Joyce: Honey, can I take the car?\r\nKyle: No, I'm sorry.\r\nJoyce: Why not? How am I supposed to go get Harry?\r\nKyle: I've got to go to a mechanic. The car is making a weird noise.\r\nJoyce: Then can you get Harry on your way?\r\nKyle: I don't know, I'm already running late.\r\nJoyce: Am I supposed to go get him by bus? That's ridiculous.\r\nKyle: Fine, I'll get him.\r\nJoyce: Thank you.",
+            "output": "Joyce wants to take Kyle's car to get Harry. Kyle is taking the car to a mechanic. Joyce refuses to get Harry by bus. Kyle agrees to pick Harry up. "
+        },
+        "156": {
+            "input": "Kelly: Oh! Oh! Can I pick the first question?\r\nJessica: Sure. Go for it!\r\nKelly: What's the scariest place you've been to!\r\nJessica: I'll start: Palermo in Italy.\r\nMickey: And what's so scary about that? Did you break your nail? :P\r\nJessica: Shut it, Mickey! No, there are the Capuchin Catacombs with 8000 corpses! \r\nKelly: Ewwww! Corpses? Rly?\r\nJessica: Yeah! And you can look at them like museum exhibits. I think they're divided somehow, but have no clue how!\r\nOllie: That's so cool! Do you get to see the bones or are they covered up?\r\nJessica: Well, partly. Most of them were exhibited in their clothes. Basically only skulls and hands. \r\nMickey: I'm writing this one down! That's so precious!\r\nOllie: Me too!",
+            "output": "The scariest place for Jessica was the Capuchin Catacombs in Palermo."
+        },
+        "157": {
+            "input": "Jake: Holly ru coming tonight?\r\nHolly: tbh I don't feel well\r\nHolly: I think I caught flu\r\nJake: oh no, I was so excited that everyone would be here\r\nHolly: I know, sorry\r\nHolly: but I srsly feel shitty..",
+            "output": "Holly is not feeling very well, so she's not coming to Jake's tonight. "
+        },
+        "158": {
+            "input": "Marsha: Guys, we've planned the trip with John last night as we promised\nCynthia: great, thank you for that\nMarsha: but of course you have to agree on that\nMohammad: sure, but I really trust you\nGavin: me too\nMarsha: so as we decided last time, we will spend a week just on the beach \nMarsha: we all wanted some calm, nice place, right?\nGavin: yes!!! \nMarsha: John found this little hotel in Nosy Be\nMarsha: <file_photo>\nMarsha: and their website: <file_other>\nMarsha: it's quite basic the website, but it may actually be a good sign\nGavin: I love it!\nCynthia: it seems just perfect\nMarsha: I know\nMarsha: it's more expensive than hotels on the mainland\nMarsha: but it seems to be the most beautiful place in Madagascar\nMohammad: so let's go there, it's still cheaper than Italy for example\nMarsha: exactly!",
+            "output": "Marsha and John planned the trip. They will spend a week on the beach with Cynthia, Mohammad and Gavin. They will all stay in a hotel in Nosy Be."
+        },
+        "159": {
+            "input": "Sophia: I'm sorry\r\nMason: It's fine\r\nSophia: Ok...If u was there, I would give you a hot kiss for apologize\r\nMason: Hahaha. You still send me a photo one\r\nSophia: What photo?\r\nMason: Kiss photo. Haha\r\nSophia: Hehe I sent u already such a photo\r\nMason: Another one wouldn't hurt\r\nSophia: Maybe later :) When I take a shower and look good\r\nMason: And who says you don't look good now ?\r\nSophia: Me\r\nMason: Let me be the judge of that\r\nSophia: No\r\nMason: I'll still love you the same. Whether you have make up or not\r\nSophia: Hehe but I don't  want u to see me when I do not look good\r\nMason: You must\r\nSophia: I must what?\r\nMason: Send me the kiss now\r\nSophia: Haha\r\nMason: Doesn't matter how you look, you'll still look good to me\r\nSophia: Hahah\r\nSophia: <file_photo>",
+            "output": "Sophia apologizes to Mason. She sends him a kiss photo on his request."
+        },
+        "160": {
+            "input": "Laura: where will we go tommorow?\r\nLinda: maybe this italian restaurant?\r\nLaura: hmm ok\r\nLinda: i love their pasta\r\nLinda: and brownie :)\r\nLaura: i thouht you dont eat sweets\r\nLinda: this brownie is not so sweet",
+            "output": "Linda and Laura are going to an Italian restaurant tomorrow."
+        },
+        "161": {
+            "input": "Petra: I need to sleep, I can't stand how sleepy I am\r\nAndy: I know, and it's so boring today, nobody's working at the office\r\nEzgi: I am working! lazy pigs\r\nPetra: I'm sleeping with my eyes open, kill me\r\nAndy: ask the fat woman from HR\r\nPetra: she would kill me on spot without batting an eye\r\nAndy: she always repeats she has a black belt in karate \r\nPetra: it's hard to believe she can move, but let her have whatever belt she wants\r\nAndy: LOL\r\nPetra: sooooo sleepy",
+            "output": "Petra is very sleepy at work today, Andy finds the day boring, and Ezgi is working. "
+        },
+        "162": {
+            "input": "Fiona: I just can\u2019t stand it\r\nWanda: What again\r\nFiona: When I\u2019m in one room with him\u2026 I just go crazy\r\nWanda: Conrad?\r\nFiona: Yesss, he\u2019s absolutely lovely!!\r\nWanda: IT IS YOUR STUDENT\r\nFiona: So what? I mean sure, I know it\u2019s\u2026 inappropriate xd but still, he\u2019s only 5 years younger than me\r\nWanda: It\u2019s so fucked up, I knew you are crazy before but it\u2019s too much\r\nFiona: I knoooow when I come back home after the class I can\u2019t do anything for like an hour or two, I just listen to the music\r\nWanda: You\u2019re literally in love with him\r\nFiona: I mean I don\u2019t expect anything, we\u2019re from different worlds but\u2026 Yes, I just want to be around him. All the time xd\r\nWanda: So you need to do something about it\r\nFiona: Are you crazy, I can\u2019t!!\r\nWanda: Why not\r\nFiona: What would my boss say if she knew\r\nWanda: Will she know?\r\nFiona: How can I know what will he do, he can tell his mother as well\r\nWanda: Just go for it!!",
+            "output": "Fiona fell in love with his student, Conrad."
+        },
+        "163": {
+            "input": "Melody: did you get your computer fixed yet?\r\nPeggy: no, im spending a lot of time using the library computers.\r\nMelody: do they know whats wrong with it? \r\nPeggy: might be something with the circuit board. they hope to have an answer tomorrow\r\nMelody: thats pretty serious. might be cheaper just to buy a new one\r\nPeggy: thats true. well see.\r\nMelody: if you need to get a new one, i highly recommend the mac model that i have\r\nPeggy: ok, good to know. i'll write if i have any questions\r\nMelody: youre probably due for a new one anyway, no?\r\nPeggy: you're right. 5 years is a long time to own one.\r\nMelody: yes, thats ancient by laptop standards\r\nPeggy: ok. i might just not bother getting it repaired after all.\r\nMelody: sounds like a good idea",
+            "output": "Melody's 5-year-old laptop is broken. Tomorrow she'll know what's wrong. She won't be repairing it, because her laptop is too old. Instead, she'll buy a new one."
+        },
+        "164": {
+            "input": "luke: Hey, was just thinking, we should avail ourselves for team selection tomorrow regardless of our injuries\r\nmartial: thats what i was thinking also\r\nluke: we should let Jose know that tomorrow\r\nmartial: the first thing in the morning infact\r\nluke: the fixtures are really piling up and we need to help the team\r\nmartial: yeah, thats for sure, we are a family\r\nluke: we will the coach know that we are ready to play\r\nmartial: despite the little pain, me i'm ready\r\nluke: me too\r\nmartial: so we meet up at carrington and go to his office very early\r\nluke: yeah, both of us\r\nmartial: ok, we'll go together\r\nluke: cool \r\nmartial: ok",
+            "output": "luke and martial want to help the team and play despite their injuries. They will meet at carrington and go to the coach's office."
+        },
+        "165": {
+            "input": "Judy: Why am I always attracted to jerks??\r\nJanice: It didn\u2019t work out with Andrew?\r\nJudy: He just wanted to fuck me\r\nJudy: When he got what he wanted he stopped calling and texting.\r\nJanice: And Bruce? He\u2019s not a jerk.\r\nJudy: He\u2019s sweet. Maybe too sweet for me\u2026\r\nJudy: He\u2019s a lovely and caring guy but I don\u2019t feel the butterflies\u2026 ",
+            "output": "Judy thinks she's always attracted to bad guys."
+        },
+        "166": {
+            "input": "Emily: Oh Linda...Something horrible has happened. I'm so sorry. I have broken one of your green tea cups. Just looked away and brushed it off the table with my skirt. SORRY!\r\nLinda: No worries babe! It's nothing. Really.\r\nEmily: I'm feeling so bad about it. So clumsy of me.\r\nLinda: Look. I never really liked the set, so one cup makes no difference. I hardly use it anyway. How come it was on the table BTW?\r\nEmily: I was cleaning the cupboards in the dining room.\r\nLinda: You did what? Whatever for? The crockery there is more for decoration.\r\nEmily: Exactly. I thought they're so pretty, especially the green ones, and then noticed how dusty they are. So I thought I'd be a helpful guest and wash them. I did. And then I made myself a cuppa in the green one. And it happened.\r\nLinda: Ya golden! Really! Look, calm down. You are a fantastic guest.\r\nEmily: Ya. Smashing. As we say in GB.\r\nLinda: You know what? Take out the whole green set. If you like it so much - it is yours.\r\nEmily: But Linda! I'm speechless.\r\nLinda: Precious! See you in the evening!\r\nEmily: CU\r\nEmily: And THANK YOU",
+            "output": "Emily's a guest at Linda's house. She broke one of Linda's green tea cups when she was cleaning the cupboards. Linda doesn't like them and she offers Emily the whole set."
+        },
+        "167": {
+            "input": "Cathy: Just realized I left my sunglasses at yours\r\nBroke: Yes, they are waiting for you to pick them up\r\nCathy: Might come round at 10 tonight if that's alright\r\nBroke: Yeah okay, see ya",
+            "output": "Cathy will pick up her glasses tonight at 10."
+        },
+        "168": {
+            "input": "Russ: Hi Gurdun, are you feeling better?\r\nGurdun: Hi Ross, a little bit better, yes, thank you.\r\nRuss: Do you think you'll be back at the uni this week?\r\nGurdun: Not tomorrow for sure, but I hope Wednesday maybe.\r\nRuss: Oh, that's fine.\r\nGurdun: Yeah. I'm feeling a bit weak still\r\nRuss: I guess that's pretty normal at this stage.\r\nGurdun: I believe so. And the muscle pain.\r\nRuss: I know what you mean. I had flu like that three months ago.\r\nGurdun: Luckily the headache's gone. It was absolutely awful.\r\nRuss: True enough. I had the same.\r\nGurdun: Anyway, how are things with you?\r\nRuss: Same old, same old, you know. Not much happening in the middle of term.\r\nGurdun: And the team?\r\nRuss: Oh yeah, we won the last match. It was a good game.\r\nGurdun: Great. Listen Russ, I need to run. Catch up later.\r\nRuss: OK, talk to you later.",
+            "output": "Gurdun has the flu. He is feeling better. Gurdun hopes he'll be back at the uni on Wednesday. Russ and his team won the last match. "
+        },
+        "169": {
+            "input": "Rudi: Hetta, did you see the last trump video\r\nHenrietta: nope\r\nHenrietta: what did he do now?\r\nRudi: <file_video>\r\nHenrietta: OMG\r\nHenrietta: what a jerk\r\nRudi: it gets worse\r\nRudi: <file_other>\r\nRudi: the whole interview is here\r\nHenrietta: can't believe he said that about a congress woman\r\nRudi: yeah\r\nHenrietta: do you wonder where the limit is?\r\nRudi: wdym\r\nHenrietta: if he will say something that will actually get him kicked out of the white house\r\nRudi: not really\r\nHenrietta: fuck\r\nRudi: yeah",
+            "output": "Trump is acting like a contemptible fool and it is getting worse. Rudi has sent Henrietta the link to his interview."
+        },
+        "170": {
+            "input": "Dave: Hey, do you have any notes from statistics?\nGreg: Hey man\nGreg: I do\nGreg: But I doubt they are better than yours\nDave: Mine don't even exist \ud83d\ude02\nDave: Oh okay\nDave: There you go:\nDave: <file_other>\nGreg: Your the best man!\nDave: You're\nGreg: Smartass\nDave: Of course\nGreg: But I'm grateful to know such a smartass \ud83d\ude02\nDave: You bet!\nDave: Notes don't write themselves.\nGreg: True. Thanks!",
+            "output": "Greg sent Dave his notes from statistics."
+        },
+        "171": {
+            "input": "Yaz: Going to slimming club tonight?\r\nMary: Well, I don't want to, but I really should. I've been so bad, though!\r\nYaz: Me too, choccies, wine, cake, you name it!\r\nMary: Well, we should bite the bullet. She'll tell us off, I expect. Feels like being back at school!\r\nYaz: Well, she IS our old cookery teacher! See you at 6ish, pick you up!?\r\nMary: Yep! See you then!",
+            "output": "Yaz and Mary are meeting tonight around 6 and going for the slimming club together. They expect to be scolded for eating too much. "
+        },
+        "172": {
+            "input": "Leah: <fIie_others>\nKristi: What is this?(?_?)\nLeah: If you go to this link, you can get 20% discount coupon <3<3<3\nKristi: What coupon is this? (\uff20_\uff20;)\nLeah: All the items on this online shop. \nLeah: Havent you talked to me that you needed new trainers?\nKristi: You remembered! Yes I did! (*^0^*)\nLeah: I have a favor as well_(._.)_\nLeah: Put my ID onto the reference code. \u201cDirendia45\u201d\u2229(\u00b7\u03c9\u00b7)\u2229\nKristi: What can you get if I do that?\nLeah: I will get some accumulated money for the shopping next time.(*_*)(*_*)(*_*)\nKristi: Alright.  (^.^)\nKristi: You smart consumer! (^_-)-\u2606(^_-)-\u2606",
+            "output": "Kristi needs new trainers. Leah has a link for a discount coupon at an online store."
+        },
+        "173": {
+            "input": "Harley: You should see this divorce filing. OMG...\r\nRuby: Bad?\r\nHarley: The guy was a serial cheater!\r\nRuby: OMG!\r\nHarley: She's taking him to the cleaners. Monthly settlement, half his pension, you name it.\r\nRuby: He deserves it!\r\nHarley: There are always two sides...\r\nRuby: Maybe she was a piss poor wife?\r\nHarley: Never cooked. Never cleaned. He paid for everything yet still managed to buy her mom a house and take extravagant vacays.\r\nRuby: Geez, down boy!\r\nHarley: Voice of experience, sorry!\r\nRuby: Well, people do crazy things. \r\nHarley: Yes, and some times theres karma, but...\r\nRuby: You're right, two sides.",
+            "output": "Harley and Ruby are discussing the divorce filing. Harley and Ruby agree there are always two sides."
+        },
+        "174": {
+            "input": "John: Ela i am coming in 10 mins please give me my walle outside t i forgot it\r\nEla: yes just saw it when you are here call me\r\nJohn: but your phone is busy thats why i messaged keep it free please i am getting late\r\nEla: oh yes was talking to mom ... its free now\r\nJohn: ok",
+            "output": "John forgot his wallet. He wants Ela to give it to him outside in 10 minutes."
+        },
+        "175": {
+            "input": "Inez: My dears, our evening inspired me to create this group conversation to plan further Food Evenings :)\r\nInez: This is my proposal for the next one: <file_photo>\r\nAlicja: Wow, I will actually feel happy going to work thanks to this :D\r\nGosia: Happy going to work and even happier leaving it haha\r\nAlicja: Just too bad that the time between 9 and 17 will be wasted :P\r\nPatrycja: I really liked our evening, even the pizza was delicious :) How did you girls like it?\r\nInez: I loved it, Gosia really chose a great place :)\r\nGosia: I am an expert at eating :D\r\nAlicja: Have you been to this restaurant Inez sent?\r\nGosia: No, it is quite new. But I heard good opinions! :D\r\nPatrycja: And it fits with our theme of exploring world cuisines :)\r\nAlicja: First Italy, now Korea! :D\r\nInez: So when could we do this again?\r\nGosia: I am not sure, but we have to before the holidays!\r\nPatrycja: We should have less work in two weeks, we could go again on Wednesday?\r\nAlicja: Sounds good to me!\r\nInez: Me too :D",
+            "output": "Patrycja and Inez enjoyed the Italian evening. Gosia chose a great place. Alicja hasn't been to the new restaurant. They all want a Korean evening on Wednesday in two weeks time."
+        },
+        "176": {
+            "input": "Andrea: Hi, Pat, I can't come to work today.\r\nPatrick: Is everything alright?\r\nAndrea: My son is sick, I need to take him to the doctor.\r\nPatrick: Oh, sorry to hear that, I hope he gets better soon.\r\nAndrea: Thanks. So is it okay with you?\r\nPatrick: Sure, take care of your boy, we'll be fine without you for the next couple of days!",
+            "output": "Andrea's son is sick, she is taking a day off and taking him to the doctor's. "
+        },
+        "177": {
+            "input": "Lilly: sorry, I'm gonna be late\r\nLilly: don't wait for me and order the food\r\nGabriel: no problem, shall we also order something for you?\r\nGabriel: so that you get it as soon as you get to us?\r\nLilly: good idea!\r\nLilly: pasta with salmon and basil is always very tasty there",
+            "output": "Lilly will be late. Gabriel will order pasta with salmon and basil for her."
+        },
+        "178": {
+            "input": "Marta: <file_gif>\r\nMarta: Sorry girls, I clicked something by accident :D\r\nAgnieszka: No problem :p\r\nWeronika: Hahaha\r\nAgnieszka: Good thing you didn't send something from your gallery ;)",
+            "output": "Marta sent a file accidentally,"
+        },
+        "179": {
+            "input": "Amka: Have you ever been to Erasmus? \r\nAmka: and how are you spending Halloween?\r\nMick: I've never done any student exchanges before.\r\nMick: That sounds like a lot of fun.\r\nMick: It's good you're doing a lot of this.\r\nMick: T'll make your CV 10x better.\r\nMick: Im'm gonna go to da club with my friends for Halloween loool\r\nAmka: I propably won't dress up.\r\nMick: There was a plan for me to go to London for Halloween \r\nMick: with my grandparents\r\nMick: But my grandma is having some health issues \r\nMick: and the plan does'nt exist anymore\r\nAmka: :(\r\nAmka: Aaahhh, I'm sorry to hear that. I hope she's feeling better  <file_gif>\r\nAmka: What are your plans now?\r\nAmka: Just gonna stay in?\r\nMick: Yeah\r\nMick: nothing special <file_gif>\r\nAmka: Fair enough I never used to do anything for Halloween.\r\nMick: in Poland we actually don't celebrate Halloween and don't do all this dressing up, pumpking curving and so on. \r\nMick: on November 1st we just go to the cementary with our families and after that spend time together.\r\nAmka: I like it.",
+            "output": "Mick's never done any student exchange before, but Amka did. Mick had a plan to go to London for Halloween, but he's not going because of his grandma's health problems. Amka will stay in as well. Mick tells Amka about Halloween in Poland."
+        },
+        "180": {
+            "input": "Owen: there is smth wrong with her\r\nNeil: I know, right?\r\nPenny: are you talking about Amy?\r\nOwen: yes\r\nNeil: she looks serious at all times\r\nPenny: have you talked to her?\r\nOwen: no\r\nNeil: neither have I\r\nPenny: that's the point, we should meet her in person",
+            "output": "Amy has severe aura. Penny, Owen and Neil want to meet her in person."
+        },
+        "181": {
+            "input": "James: hi girls! When are you flying to Japan?\r\nMary: in a week! unbelievable \ud83c\udf89\r\nPatricia: I can't believe either. \r\nPatricia: I am also increasingly scared\r\nMary: you're such an alarmist!\r\nJames: But scared of what??\r\nPatricia: the long flight, earth-quakes\r\nPatricia: God, and tsunamis!\r\nJames: hahaha, you're really a damn alarmist\r\nJames: this is so exaggerated, are you serious?\r\nPatricia: James, I almost never travel, I'm afraid really\r\nJames: Listen, nothing will happen. First of all the earthquakes happen rarely, even in Japan and only in certain places\r\nJames: it's not like the whole country is shaking all the time\r\nMary: I'm telling her this all the time, but it's pointless\r\nJames: And, most of all, Japanese have amazing architecture because of their experiences with earthquakes. Their cities are super safe\r\nPatricia: What about tsunamis?\r\nJames: Are you going to be at the coast even?\r\nPatricia: Mary, are we?\r\nMary: I doubt. maybe for 2 hours somewhere close to Tokyo\r\nJames: So I don't think the next tsunami in Japan will happen exactly at that place and time, relax and enjoy\r\nJames: Japan is really an amazing country.\r\nPatricia: Thanks James :)",
+            "output": "Mary and Patricia are flying to Japan in a week. Patricia is scared of long flight, earth-quakes and tsunamis. James is comforting her. Mary tried to comfort Patricia too with no effect."
+        },
+        "182": {
+            "input": "Alexa: I want to confess something\r\nHunter: What is it?\r\nAlexa: I asked Ethan to Insult you :(\r\nHunter: But why did you do that?\r\nAlexa: I was too jealous to see you with Ethan that day, dats why :(\r\nHunter: But you could just ask me not to do something if you dont want me to?\r\nAlexa: We would talk about it tomorrow",
+            "output": "Alexa asked Ethan to insult Hunter out of jealousy."
+        },
+        "183": {
+            "input": "Trinny: What time do we meet?\r\nSusannah: 5, 6?\r\nLinda: six, please? I need time to get ready after work;)\r\nTrinny: 6 is good!\r\nSusannah: Ok\r\nSusannah: at the main entrance?\r\nTrinny: Ok\r\nLinda: see you Ladies!\r\nTrinny: :*",
+            "output": "Trinny, Susannah and Linda will meet at 6 at the main entrance."
+        },
+        "184": {
+            "input": "Andrei: hey, did you pick up the film equipment for tonite's shooting?\r\nSerge: no, im on my way there now.\r\nAndrei: cool. do you happen to have your credit card with you? we have an outstanding bill to pay with the company.\r\nSerge: yeah, i do. not a lot of available credit on it, but we'll see when we get there.\r\nAndrei: OK, thanks. theyll be glad when we pay it. its long overdue.\r\nSerge: ill let you know if it works out. getting of the metro now\r\nAndrei: ok",
+            "output": "Serge is on his way to pick up the film equipment for the shooting tonight. Andrei and Serge are late with a large payment to the company. Serge and Andrei will try to use the credit card to pay the company."
+        },
+        "185": {
+            "input": "Madeline: I'm really not happy with Martin\u2019s requests, and Jada's way of dealing with his problems. But it's her responsibility. I probably shouldn't care, should I?\r\nAlex: What happened?\r\nMadeline: We had a little argument today, didn't you hear?\r\nAlex: No, I think I was away or oblivious.\r\nMadeline: Oh, ok. That's probably better \ud83d\ude02\r\nAlex: Tomorrow u need to tell me what happened lol\r\nMadeline: Are we going for a beer after?\r\nAlex: Sure!\r\nMadeline: Good, have a good night. See you tomorrow. More than 8 hours. Excited?\r\nAlex: I can\u2019t contain myself\u2026",
+            "output": "Madeline is in conflict with Martin and Jada. Alex and Madeline will go for a beer tomorrow. Madeline will explain her issues with Martin and Jada to Alex."
+        },
+        "186": {
+            "input": "Poppy: Yeah. I definitely prefer Lisbon\r\nHarry: Yeah me too, principally the night\r\nPoppy: To party?\r\nHarry: Yup\r\nPoppy: I don't like parties. They make me tired\r\nHarry: Really?!\r\nPoppy: I don't like crowd, drunk people\r\nHarry: Oh OK. It makes sense. That's the worst part of it. What you like to do for having fun?\r\nPoppy: Travelling. Sightseeing\r\nHarry: For sure that's on the top of my list too \ud83d\ude01",
+            "output": "Poppy and Harry like Lisbon. Poppy doesn't like parties, but she likes traveling and sightseeing. Harry likes parties, traveling and sightseeing. "
+        },
+        "187": {
+            "input": "Hannah: HAPPY NEW YEAR!!! :))) \r\nBrooklyn: Same to you! Have you made any New Year's resolutions? ;>\r\nHannah: A whole list ^^\r\nHannah: New year, new me :D\r\nBrooklyn: Really? :D So how you're going to change your life this year?\r\nHannah: First, I'm gonna lose weight and exercise everyday (or at least 3 times a week).\r\nHannah: Second, I want to learn how to cook and start meal prepping\r\nHannah: Finally, I'm gonna find my future husband (or at least start using dating apps):D\r\nHannah: And you? Have you set any goals for 2019?\r\nBrooklyn: Hmm, interesting :D especially the last point ^^\r\nBrooklyn: Yeah, just one - not to make any resolutions.\r\nHannah: Whyyyy??\r\nBrooklyn: I just don't believe that a new year means a fresh start.\r\nBrooklyn: Every past year I told myself I would lose weight, quit smoking, start going to the gym etc. And I'm still a fatty, who smokes like a chimney and rarely leaves their couch.\r\nHannah: You're a little ray of sunshine, aren't you? ;)\r\nBrooklyn: :p And you're an undaunted optimist. What makes you believe that everything is going to change for the better?\r\nHannah: I don't know, I just like to think that we get numerous second chances to change our lives, to make right what's wrong.\r\nHannah: That's it, I don't have any better explanation.\r\nBrooklyn: Well, you haven't convinced me. :) Nevertheless good luck with all your resolutions. ;)\r\nHannah: Thanks! :*",
+            "output": "Hannah's New Year's resolutions are: work out, cook for herself, start dating. Brooklyn didn't make any. In the past she had, but she never fulfilled them. "
+        },
+        "188": {
+            "input": "Frederick: do u like ur new next door neighbors?\r\nFrederick: they seemed really cool yesterday when we ran into them\r\nRicky: they're nice people but they're incredibly noise\r\nRicky: they also have parakeet that wouldn't stop squawking all night long hahaha\r\nFrederick: sucks to be you",
+            "output": "Ricky's new neighbours are nice but loud. They own a parakeet that makes a lot of noise throughout the night."
+        },
+        "189": {
+            "input": "Charlee: I'm in class. Theatre in Portuguese lol\r\nCurtis: Realllly?\r\nCharlee: Yes. One of my subjects at the university that I attend is portuguese theatre. We are preparing a performance\r\nCurtis: What performance is this? Are you devising it?\r\nCharlee: A polish one translated into portuguese\r\nCurtis: Thats quite cool. Who is the writer?\r\nCharlee: Mro\u017cek",
+            "output": "Charlee is attending Portuguese theater as a subject at university. He and other students are preparing a play by Mro\u017cek translated into Portuguese."
+        },
+        "190": {
+            "input": "Leah: i've just met the creepiest guy on the earth :|\r\nSamantha: :o i'm all ears\r\nLeah: last night i went to the poetry reading\r\nLeah: this guy approached me, introduced himself and we started talking\r\nLeah: he was rly boring, but, you know, i didn't want to be rude, he didn't seem to be a psycho, so i kept talkig to him\r\nLeah: at one point he mentioned that \"we have something in common\", because we both speak german\r\nSamantha: charming :D\r\nLeah: i was like: \"erm, ok, how do you know about this, i don't know you, i didn't tell you about this\"\r\nLeah: he just brushed it off and kept talking\r\nLeah: at one point he asked me about an event i had attended and he NAMED ALL OF MY FRIENDS THAT HAD COME WITH ME\r\nLeah: of course i didn't tell him about it\r\nSamantha: wow, that's creepy as hell\r\nSamantha: what did you do?\r\nLeah: i asked him once again how did he know about all this stuff and he said that he googled me out\r\nSamantha: WHAAAAT?\r\nSamantha: i googled people out before, but i\u2019m not that stupid (and creepy) to tell them about it :o\r\nLeah: right?!\r\nLeah: and now the best part\r\nLeah: he googled me out, because he thought that i had a crush on him, because 2 weeks earlier  I LIKED A POST ON FB announcing that he was going to accompany poets on the guitar during the poetry reading\r\nLeah: can you believe this?!\r\nSamantha: LOOOOOOL\r\nSamantha: men are fckin weird\r\nLeah: AND he tried to walk me home, even though i told him straightforward that he was a creep\r\nSamantha: girl, you're lucky that he didn\u2019t kill you, what a psycho\r\nSamantha: i would totally freak out",
+            "output": "Leah met a creepy guy last night at a poetry reading. He knew she speaks German and named all the friends who went to a past event with her. She didn't tell him any of this. He googled her before. Leah had liked a post mentioning him 2 weeks earlier. "
+        },
+        "191": {
+            "input": "Cindy: <file_gif>\r\nEllie: Why are you so sad? Something\u2019s happened?\r\nCindy: I don\u2019t want to talk about it\u2026\r\nEllie: Cheer up! Tomorrow\u2019s another day \ud83d\ude0a\r\nCindy: <file_video>\r\nCindy: Have you seen it? It\u2019s viral on the internet\r\nEllie: Nope, but it\u2019s very funny \ud83d\ude0a\r\nEllie: <file_gif>",
+            "output": "Cindy is sad, but doesn't want to talk about the reason. Ellie hasn't seen the funny video that went viral. "
+        },
+        "192": {
+            "input": "Edward: I dont wanna go on that business trip tomorrow\r\nLauren: I am stressed af\r\nKate: I don't think its gonna be that bad\r\nLauren: The boss is coming with us \r\nKate: Yea well \r\nKate: I am ok with him \r\nEdward: You think its gonna be just a few meetings with clients \ud83d\ude36\r\nKate: Not only\r\nKate: We're going to an expo \r\nKate: I hate the expo stuff\r\nKate: We have to pretend to be nice\r\nKate: But people coming to our booth actually have nothing to do with what we're doing \r\nLauren: True\r\nEdward: Expos are not as stressful as meetings tho \r\nKate: Ye well \r\nKate: We cant complain rn \r\nLauren: we have to go anyway \r\nLauren: \ud83d\ude11\ud83d\ude11\ud83d\ude11\r\nKate: See y'all there then ",
+            "output": "Edward doesn't want to go on the business trip tomorrow. Lauren's stressed about it, because their boss is coming with them. Kate think it's going to be ok. There will be meeting with clients and an expo."
+        },
+        "193": {
+            "input": "Aggie: When do you start work?\r\nPeter: at 8 \r\nPeter: why?\r\nAggie: no when do you start the new job?\r\nPeter: oh on the 6th\r\nAggie: Ok I'll get a babysitter then\r\nPeter: lol wanted a free babysitter\r\nAggie: yeah sorry :P",
+            "output": "Peter starts his new job on the 6th. Peter wanted a free babysitter. Aggie will arrange for a babysitter. "
+        },
+        "194": {
+            "input": "Steve: can you byt me some lunch?\r\nNick: sure, what do you want?\r\nSteve: Anything but chicken.\r\nNick: gotcha",
+            "output": "Nick will got some lunch for Steve - it can be anything but chicken. "
+        },
+        "195": {
+            "input": "Betty: <file_photo>\r\nSandra: Hahaha!\r\nBetty: This guy has totally nailed it!\r\nSandra: I have a special place in my heart for men that take care of animals.\r\nBetty: I know! He and his cat look so cute!\r\nSandra: Haha! I'm sure he could've taken good care of us too!\r\nBetty: :) :) :)\r\nBetty: Sandra you naughty girl!\r\nSandra: Oh stop it. We both know that you think that too.\r\nBetty: Maybe a little.\r\nSandra: Btw, my ex just messeged me. He said he had been thinking about our split-up recently and he stated that it had been a mistake.\r\nBetty: Seriously?! After 3 months?\r\nSandra: Yeah. The worst thing is that I think that too :(\r\nBetty: You are not thinking of getting back to him are you?\r\nSandra: ...\r\nBetty: Come on! He was such a jerk back then! Don't you remember how sick you felt when he left you?\r\nSandra: I know but\r\nBetty: No buts! I'll be at your place at 6. I'll bring the wine!",
+            "output": "Betty shares a photo of a man with a cat with Sandra. Sandra's ex wants to get back. She misses him. Betty comes over with wine at 6."
+        },
+        "196": {
+            "input": "David: Morning Russ. Have you seen the report I emailed yesterday?\r\nRuss: Hi David. Well received thank you. But I haven't read it yet.\r\nDavid: Is there anything you'd like me to do right now?\r\nRuss: I'll take a look at the report in a moment and will send you remarks if I have any.\r\nDavid: Sounds good. I guess I'll just answer some emails.\r\nRuss: Please do. I should be done by midday with the report.",
+            "output": "Russ received David's report but hasn't read it yet."
+        },
+        "197": {
+            "input": "Marvin: When's the last time you got laid ?\r\nMelany: I don't even remember..\r\nMarvin: Hmm so there must be lots of cobwebs between your legs now huh hahaha",
+            "output": "It's been very long since Melany last had sex. Marvin made an inappropriate joke about it."
+        },
+        "198": {
+            "input": "Tanya: are you better today?\r\nRosie: better, but not good\r\nTanya: it's great to hear that\r\nTanya: i was worried",
+            "output": "Rosie is better, but still not well."
+        },
+        "199": {
+            "input": "Casey: <file_photo>\r\nAmelia: these are so nice!!! did you do them yourself?\r\nKristen: wooow amazing\r\nAmelia: i want my nails done like that too!\r\nCasey: yeah i did it myself :D got a new nail polish but damn it took me nearly 4 hours lol\r\nAmelia: can you do it for us too?\r\nKristen: pretty please!\r\nCasey: sorry you guys... it was a nightmare :( seriously 4 hours for nails is too much",
+            "output": "Casey got a new nail polish and did her nails herself. It took her nearly 4 hours, so she won't do her friends' nails, as it takes too long."
+        },
+        "200": {
+            "input": "Callan: Something's wrong with my Samsung S8.\r\nWade: What, exactly?\r\nCallan: All I get is a black screen.\r\nWade: Did you drop it or something?\r\nCallan: I think I know, this has happened before.\r\nWade:  It did? What happened before?\r\nCallan: It overheats and then it takes a while for it to restart again..\r\nWade: That sucks.. Be carefull with the battery, it can be dangerous.\r\nCallan: It sure can, but I'm going to the store and let them see it. It's still under warranty.\r\nWade: Will you lose all your stuff?\r\nCallan: No, I always back up my files.",
+            "output": "Callan's Samsung S8 overheats, so he's going to the store to get it repaired."
+        }
+    }
+}
