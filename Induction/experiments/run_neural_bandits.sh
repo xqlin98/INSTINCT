@@ -1,3 +1,4 @@
+export export OPENAI_API_KEY=YOUR_KEY
 datasets=(active_to_passive antonyms auto_categorization auto_debugging cause_and_effect common_concept diff first_word_letter informal_to_formal larger_animal letters_list negation num_to_verbal odd_one_out object_counting orthography_starts_with periodic_elements rhymes second_word_letter sentence_similarity sentiment singular_to_plural sum synonyms taxonomy_animal translation_en-de translation_en-es translation_en-fr word_sorting word_unscrambling)
 for i in ${datasets[@]}; do
     python experiments/run_neural_bandits.py \

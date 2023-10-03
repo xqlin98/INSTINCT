@@ -1,3 +1,4 @@
+export export OPENAI_API_KEY=YOUR_KEY
 datasets=(gsm8k)
 for task in ${datasets[@]}; do
     python experiments/run_cot_bandits.py \
