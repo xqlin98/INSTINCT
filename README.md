@@ -1,49 +1,44 @@
-# Use Your INSTINCT: Instruction Optimization Using Neural Bandits Coupled with Transformers
-Xiaoqiang Lin*, Zhaoxuan Wu*, Zhongxiang Dai, Wenyang Hu, Yao Shu, See-Kiong Ng, Patrick Jaillet, Bryan Kian Hsiang Low
+# Academic Project Page Template
+This is an academic paper project page template.
 
-[Project Homepage](https://sites.google.com/view/use-your-instinct) | [ArXiv](https://arxiv.org/pdf/2310.02905.pdf)
 
-This is the code for the paper: Use Your INSTINCT: Instruction Optimization Using Neural Bandits Coupled with Transformers.
-We provide all the codes for our experiments which includes:
-- Instruction induction
-- Improving chain-of-thought instruction
+Example project pages built using this template are:
+- https://www.vision.huji.ac.il/deepsim/
+- https://www.vision.huji.ac.il/3d_ads/
+- https://www.vision.huji.ac.il/ssrl_ad/
+- https://www.vision.huji.ac.il/conffusion/
 
-Our code are based on the code from [APE](https://github.com/keirp/automatic_prompt_engineer) and [InstructZero](https://github.com/Lichang-Chen/InstructZero).
 
-# Abstract
-Large language models (LLMs) have shown remarkable instruction-following capabilities and achieved impressive performances in various applications. However, the performances of LLMs depend heavily on the instructions given to them, which are typically manually tuned with substantial human efforts. Recent work has used the query-efficient Bayesian optimization (BO) algorithm to automatically optimize the instructions given to black-box LLMs. However, BO usually falls short when optimizing highly sophisticated (e.g., high-dimensional) objective functions, such as the functions mapping an instruction to the performance of an LLM. This is mainly due to the limited expressive power of the Gaussian process (GP) model which is used by BO as a surrogate to model the objective function. Meanwhile, it has been repeatedly shown that neural networks (NNs), especially pre-trained transformers, possess strong expressive power and can model highly complex functions. So, we adopt a neural bandit algorithm which replaces the GP in BO by an NN surrogate to optimize instructions for black-box LLMs. More importantly, the neural bandit algorithm allows us to naturally couple the NN surrogate with the hidden representation learned by a pre-trained transformer (i.e., an open-source LLM), which significantly boosts its performance. These motivate us to propose our INSTruction optimization usIng Neural bandits Coupled with Transformers (INSTINCT) algorithm. We perform instruction optimization for ChatGPT and use extensive experiments to show that our INSTINCT consistently outperforms the existing methods in different tasks, such as in various instruction induction tasks and the task of improving the zero-shot chain-of-thought instruction.
-# Prepare the data
-You can download the data for intrinsic induction from the github repo of [InstructZero](https://github.com/Lichang-Chen/InstructZero). You can download the dataset of [SAMSum](https://huggingface.co/datasets/samsum) from the huggingface website. You can download the dataset for GSM8K, AQUARAT, and SVAMP from the repo for [APE](https://github.com/keirp/automatic_prompt_engineer).
+## Start using the template
+To start using the template click on `Use this Template`.
 
-We put the data preparsion notebook at `COT/experiments/data/instruction_induction/pre_aqua.ipynb`, `COT/experiments/data/instruction_induction/pre_gsm8k.ipynb` and `Induction/experiments/data/nlptasks/pre_nlp_data.ipynb`.
+The template uses html for controlling the content and css for controlling the style. 
+To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
 
-# Run our code
-To run our code, you need to install the environment using conda:
-`conda env create -f environment.yml`
+**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
 
-We provide bash scripts for running our experiments for instruction induction at `Induction/experiments/run_neural_bandits.sh`. To run it properly, you need to run the following in the terminal:
-```
-cd Induction
-bash experiments/run_neural_bandits.sh
-```
-Similarly, to run our code for improving chain-of-thought instruction, you need to run the script `COT/experiments/run_cot_bandits.sh` as the following:
-```
-cd COT
-bash experiments/run_cot_bandits.sh
-```
-Note that before you run the above bash script, you need to specify the openai key for calling `gpt-turbo-3.5-0301` API. To do so, change the following in the two bash scripts:
-```
-export export OPENAI_API_KEY=YOUR_KEY
-```
+## Components
+- Teaser video
+- Images Carousel
+- Youtube embedding
+- Video Carousel
+- PDF Poster
+- Bibtex citation
 
-## BibTeX
-```
-@article{lin2023use,
-      title={Use Your INSTINCT: Instruction Optimization Using Neural Bandits Coupled with Transformers}, 
-      author={Xiaoqiang Lin and Zhaoxuan Wu and Zhongxiang Dai and Wenyang Hu and Yao Shu and See-Kiong Ng and Patrick Jaillet and Bryan Kian Hsiang Low},
-      year={2023},
-      eprint={2310.02905},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
+## Tips:
+- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
+- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
+(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
+- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
+- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
+- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
+- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
+- This project page can also be made into a github pages website.
+- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
+- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
+
+## Acknowledgments
+Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
+
+## Website License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
