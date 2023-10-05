@@ -52,7 +52,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Use Your INSTINCT: INSTruction optimization usIng Neural bandits Coupled with Transformers</h1>
+            <h1 class="title is-1 publication-title">Use Your <font color="#1155cc">INSTINCT</font>: <br> <u>INST</u>ruction optimization us<u>I</u>ng <br> <u>N</u>eural bandits <u>C</u>oupled with <u>T</u>ransformers</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
                     <a href="https://xqlin98.github.io/" target="_blank">Xiaoqiang Lin*</a>,
@@ -142,7 +142,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3"><font color="#1155cc">Abstract</font></h2>
         <div class="content has-text-justified">
           <p>
             Large language models (LLMs) have shown remarkable instruction-following capabilities and achieved impressive performances in various applications. However, the performances of LLMs depend heavily on the instructions given to them, which are typically manually tuned with substantial human efforts. Recent work has used the query-efficient Bayesian optimization (BO) algorithm to automatically optimize the instructions given to black-box LLMs. However, BO usually falls short when optimizing highly sophisticated (e.g., high-dimensional) objective functions, such as the functions mapping an instruction to the performance of an LLM. This is mainly due to the limited expressive power of the Gaussian process (GP) model which is used by BO as a surrogate to model the objective function. Meanwhile, it has been repeatedly shown that neural networks (NNs), especially pre-trained transformers, possess strong expressive power and can model highly complex functions. So, we adopt a neural bandit algorithm which replaces the GP in BO by an NN surrogate to optimize instructions for black-box LLMs. More importantly, the neural bandit algorithm allows us to naturally couple the NN surrogate with the hidden representation learned by a pre-trained transformer (i.e., an open-source LLM), which significantly boosts its performance. These motivate us to propose our INSTruction optimization usIng Neural bandits Coupled with Transformers (INSTINCT) algorithm. We perform instruction optimization for ChatGPT and use extensive experiments to show that our INSTINCT consistently outperforms the existing methods in different tasks, such as in various instruction induction tasks and the task of improving the zero-shot chain-of-thought instruction.
@@ -159,31 +159,38 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">How to use your INSTINCT?</h2>
+        <h2 class="title is-3"><font color="#1155cc">How to use your INSTINCT?</font></h2>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="columns">
       <div class="column is-one-fifths">
-        <p class="smaller-text">
+        <p class="smaller-text" >
           </br></br>
-          Step ①: Training the neural network for score prediction.<br>
-          
-          Step ②: Selecting the next soft prompt using the NeuralUCB algorithm.<br>
-          
-          Step ③: Generating the instruction using a white-box LLM.<br>
-          
-          Step ④: Predicting the label for a validation dataset using black-box LLM using the generated instruction.<br>
-          
-          Step ⑤: Evaluating the predicted results (i.e., the performance of the instruction).<br>
-          
-          Step ⑥: Extracting the hidden representation from the white-box LLM for the instruction. Adding the hidden representation and the evaluated score to the dataset which is used to train the neural network.
+          <div style="padding-top: 8px;">
+            Step ①: Training the neural network for score prediction.<br>
+          </div>
+          <div style="padding-top: 8px;">
+            Step ②: Selecting the next soft prompt using the NeuralUCB algorithm.<br>
+          </div>
+          <div style="padding-top: 8px;">
+            Step ③: Generating the instruction using a white-box LLM.<br>
+          </div>
+          <div style="padding-top: 8px;">
+            Step ④: Predicting the label for a validation dataset using black-box LLM using the generated instruction.<br>
+          </div>
+          <div style="padding-top: 8px;">
+            Step ⑤: Evaluating the predicted results (i.e., the performance of the instruction).<br>
+          </div>
+          <div style="padding-top: 8px;">
+            Step ⑥: Extracting the hidden representation from the white-box LLM for the instruction. Adding the hidden representation and the evaluated score to the dataset which is used to train the neural network.
+          </div>
         </p>
       </div>
       <div class="column is-three-fifths">
         <div class="item">
-          <img src="static/images/instinct.gif" alt="Image 1">
+          <img src="static/images/instinct.gif" alt="GIF">
         </div>
       </div>
     </div>
@@ -191,12 +198,11 @@
 </section>
 
 
-
-<section class="section hero">
+<section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-fifths-fifths">
-        <h2 class="title is-3">Results</h2>
+        <h2 class="title is-3"><font color="#1155cc">Results</font></h2>
       </div>
     </div>
   </div>
@@ -204,125 +210,135 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-fifths-fifths">
-        <h3 class="title is-4">How does INSTINCT generate higher-quality instructions across iterations? </h3>
+        <h3 class="title is-4"><font color="#1155cc">How does INSTINCT generate higher-quality instructions across iterations?</font></h3>
       </div>
     </div>
   </div>
+  <div class="columns is-vcentered interpolation-panel">
   <div class="container is-max-desktop">
     <div class="column is-centered">
       <div class="column is-fifths-fifths">
-        <img src="static/images/demos.png" alt="Image 1" class="max-width-1">
+        <img src="static/images/demos.png" alt="Demos Image">
       </div>
     </div>
+  </div>
   </div>
 </br></br></br>
-
-<div class="container">
-  <div class="columns">
-    <div class="column is-one-fifths">
-      <p class="smaller-text">
-      <h3 class="title is-3">Instruction induction</h3>
-      Our approach significantly outperforms APE and InstructZero on the task of instruction induction.
-      </p>
-    </div>
-    <div class="column is-four-fifths is-centered">
-      <div class="column is-centered">
-        <div class="item">
-          <div class="max-width-1">
-            <h2 class="subtitle has-text-centered"></h2>Figure 1: Improvement of our INSTINCT over baselines (in 30 tasks).</h2></br>
-            <img src="static/images/ii1.png" alt="Image 1" class="max-width-2">
-          </div>
-        </div>
-      </div>
-      <div class="column is-centered">
-        <div class="item">
-          <div class="max-width-5">
-            <h2 class="subtitle has-text-centered"></h2>Table 1: Average test accuracy achieved by (i) APE, (ii) InstructZero and (iii) INSTINCT.</h2></br>
-            <img src="static/images/ii2.png" alt="Image 1" class="max-width-5">
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
+</section>
 
 
+<section class="section">
 
-<!-- <div class="container">
-  <div id="results-carousel" class="carousel results-carousel">
-    <div class="item max-width-4">
-      <img src="static/images/ii1.png" alt="MY ALT TEXT"  />
-    </div>
-    <div class="item max-width-4">
-      <img src="static/images/ii2.png" alt="MY ALT TEXT" />
-    </div>
-  </div>
-</div>
-</div> -->
-
-</br></br></br>
-  <div class="container">
-    <div class="columns">
-      <div class="column is-one-fifths">
-        <p class="smaller-text">
-          <h3 class="title is-3">Improving instruction for summarization tasks</h3>
-          We demonstrate the capability of our INSTINCT for instruction optimization across a variety of tasks.
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3"><font color="#1155cc">Instruction induction</font></h2>
+        <p>
+          Our approach significantly outperforms APE and InstructZero on the task of instruction induction.
         </p>
       </div>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered  has-text-centered">
+
       <div class="column is-three-fifths">
-        <div class="item">
-          <div class="max-width-2">
+      <div class="column">
+        <div class="content">
+          <h2 class="subtitle has-text-centered"></h2>Figure 1: Improvement of our INSTINCT over baselines (in 30 tasks).</h2></br>
+            <img src="static/images/ii1.png" alt="II Image">
+        </div>
+      </div>
+      </div>
+
+      <div class="column is-three-fifths">
+      <div class="column">
+        <div class="content">
+          <h2 class="subtitle has-text-centered"></h2>Table 1: Average test accuracy achieved by (i) APE, (ii) InstructZero and (iii) INSTINCT.</h2></br>
+          <img src="static/images/ii2.png" alt="II Table">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      
+      <!-- <div class="container is-three-fifths"> -->
+        <div class="column is-two-fifths">
+          <div class="content">
+            <h3 class="title is-3"><font color="#1155cc">Improving instruction for summarization tasks</font></h3>
+            <p>
+              We demonstrate the capability of our INSTINCT for instruction optimization across a variety of tasks.
+            </p>
+          </div>
+        </div>
+      <!-- </div> -->
+
+      <!-- <div class="container is-three-fifths"> -->
+        <div class="column has-text-centered">
+        <div class="column">
+          <div class="content">
             <h2 class="subtitle has-text-centered"></h2>Table 2: Instruction optimization on SAMSum dataset (summarization task).        </h2></br>
-            <img src="static/images/sum.png" alt="Image 1" class="max-width-2">
+            <img src="static/images/sum.png" alt="Sum Table">
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    <!-- </div> -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-two-fifths">
+        <div class="content">
+          <h3 class="title is-3"><font color="#1155cc">Improving chain-of-thought prompts</font></h3>
+          <p>
+            We improve COT prompts on multiple arithmetic reasoning tasks.
+          </p>
+        </div>
+      </div>
+
+      <div class="column has-text-centered">
+        <div class="column">
+          <div class="content">
+            <h2 class="subtitle has-text-centered"></h2>Table 3: The best zero-shot CoT instructions found by different algorithms and their scores.</h2></br>
+            <img src="static/images/cot.png" alt="COT Table">
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-</br></br></br>
-
-  <div class="container">
-    <div class="columns">
-      <div class="column is-one-fifths">
-        <p class="smaller-text">
-          <h3 class="title is-3">Improving chain-of-thought prompts</h3>
-          We improve COT prompts on multiple arithmetic reasoning tasks.
-        </p>
-      </div>
-      <div class="column is-three-fifths">
-        <div class="column is-three-fifths">
-          <div class="item">
-            <div class="max-width-3">
-              <h2 class="subtitle has-text-centered"></h2>Table 3: The best zero-shot CoT instructions found by different algorithms and their scores.          </h2></br>
-              <img src="static/images/cot.png" alt="Image 1" class="max-width-3">
-            </div>
-          </div>
-        </div>
-        <div class="column is-three-fifths">
-
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/kBGbnMl1EwI" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-
-        </div>
-      </div>
+    <div class="column is-three-fifths">
+      <iframe src="https://www.youtube.com/embed/kBGbnMl1EwI" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
   </div>
-</br></br></br>
+</section>
 
-  <div class="container">
-    <div class="columns">
-      <div class="column is-one-fifths">
-        <p class="smaller-text">
-          <h3 class="title is-3">Further improvement with one-shot in-context learning</h3>
-          We see wider potential applications of our INSTINCT through its combination with in-context learning.
-        </p>
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-two-fifths">
+        <div class="content">
+          <h3 class="title is-3"><font color="#1155cc">Further improvement with one-shot in-context learning</font></h3>
+          <p>
+            We see wider potential applications of our INSTINCT through its combination with in-context learning.
+          </p>
+        </div>
       </div>
-      <div class="column is-three-fifths">
-        <div class="item">
-          <div class="max-width-4">
+
+      <div class="column has-text-centered">
+        <div class="column">
+          <div class="content">
             <h2 class="subtitle has-text-centered"></h2>Table 4: Average test accuracy achieved by (i) INSTINCT, (ii) test-time-only one-shot INSTINCT, (iii) one-shot INSTINCT. The results including all tasks are given in the paper.           </h2></br>
-            <img src="static/images/oneshot.png" alt="Image 1" class="max-width-4">
+            <img src="static/images/oneshot.png" alt="One-shot Table">
           </div>
         </div>
       </div>
@@ -331,21 +347,10 @@
 </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
+      <h2 class="title has-text-centered"><font color="#1155cc">BibTeX</font></h2>
       <pre><code>@article{lin2023use,
         title={Use Your INSTINCT: Instruction Optimization Using Neural Bandits Coupled with Transformers}, 
         author={Xiaoqiang Lin and Zhaoxuan Wu and Zhongxiang Dai and Wenyang Hu and Yao Shu and See-Kiong Ng and Patrick Jaillet and Bryan Kian Hsiang Low},
@@ -377,12 +382,31 @@
   }
 </style>
 
-<a href="https://info.flagcounter.com/UgUq"><img src="https://s11.flagcounter.com/count2/UgUq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 <!-- Statcounter tracking code -->
   
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                This website is licensed under a <a rel="license"
+                                                    href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+                The website template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io"> here</a>.
+              </p>
+              <a href="https://info.flagcounter.com/UgUq"><img src="https://s11.flagcounter.com/count2/UgUq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
