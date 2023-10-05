@@ -190,6 +190,8 @@
   </div>
 </section>
 
+
+
 <section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -222,33 +224,42 @@
       Our approach significantly outperforms APE and InstructZero on the task of instruction induction.
       </p>
     </div>
-    <!-- <div class="column is-three-fifths">
+    <div class="column is-four-fifths">
+
+      <div class="column is-four-fifths">
         <div class="item">
-          <img src="static/images/ii1.png" alt="Image 1">
-        </div>
-      </div> -->
-    <div class="container">
-      <div class="column is-two-fifths">
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-            <!-- Your image here -->
-            <img src="static/images/ii1.png" alt="MY ALT TEXT"/>
-            <!-- <h2 class="subtitle has-text-centered">
-              First image description.
-            </h2> -->
-          </div>
-          <div class="item">
-            <!-- Your image here -->
-            <img src="static/images/ii2.png" alt="MY ALT TEXT"/>
-            <!-- <h2 class="subtitle has-text-centered">
-              Second image description.
-            </h2> -->
+          <div class="max-width-1">
+            <h2 class="subtitle has-text-centered"></h2>Figure 1: Improvement of our INSTINCT over baselines (in 30 tasks).</h2></br>
+            <img src="static/images/ii1.png" alt="Image 1" class="max-width-2">
           </div>
         </div>
       </div>
+      <div class="column is-four-fifths">
+        <div class="item">
+          <div class="max-width-5">
+            <h2 class="subtitle has-text-centered"></h2>Table 1: Average test accuracy achieved by (i) APE, (ii) InstructZero and (iii) INSTINCT.</h2></br>
+            <img src="static/images/ii2.png" alt="Image 1" class="max-width-5">
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+
+
+<!-- <div class="container">
+  <div id="results-carousel" class="carousel results-carousel">
+    <div class="item max-width-4">
+      <img src="static/images/ii1.png" alt="MY ALT TEXT"  />
+    </div>
+    <div class="item max-width-4">
+      <img src="static/images/ii2.png" alt="MY ALT TEXT" />
     </div>
   </div>
 </div>
+</div> -->
+
 </br></br></br>
   <div class="container">
     <div class="columns">
@@ -260,11 +271,16 @@
       </div>
       <div class="column is-three-fifths">
         <div class="item">
-          <img src="static/images/sum.png" alt="Image 1">
+          <div class="max-width-2">
+            <h2 class="subtitle has-text-centered"></h2>Table 2: Instruction optimization on SAMSum dataset (summarization task).        </h2></br>
+            <img src="static/images/sum.png" alt="Image 1" class="max-width-2">
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+</br></br></br>
 
   <div class="container">
     <div class="columns">
@@ -276,11 +292,15 @@
       </div>
       <div class="column is-three-fifths">
         <div class="item">
-          <img src="static/images/cot.png" alt="Image 1">
+          <div class="max-width-3">
+            <h2 class="subtitle has-text-centered"></h2>Table 3: The best zero-shot CoT instructions found by different algorithms and their scores.          </h2></br>
+            <img src="static/images/cot.png" alt="Image 1" class="max-width-3">
+          </div>
         </div>
       </div>
     </div>
   </div>
+</br></br></br>
 
   <div class="container">
     <div class="columns">
@@ -292,7 +312,10 @@
       </div>
       <div class="column is-three-fifths">
         <div class="item">
-          <img src="static/images/oneshot.png" alt="Image 1">
+          <div class="max-width-4">
+            <h2 class="subtitle has-text-centered"></h2>Table 4: Average test accuracy achieved by (i) INSTINCT, (ii) test-time-only one-shot INSTINCT, (iii) one-shot INSTINCT. The results including all tasks are given in the paper.           </h2></br>
+            <img src="static/images/oneshot.png" alt="Image 1" class="max-width-4">
+          </div>
         </div>
       </div>
     </div>
@@ -333,6 +356,15 @@
   }
   
   .max-width-2 {
+    max-width: 500px;
+  }
+  .max-width-3 {
+    max-width: 800px;
+  }
+  .max-width-4 {
+    max-width: 800px;
+  }
+  .max-width-5 {
     max-width: 700px;
   }
 </style>
