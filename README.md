@@ -1,7 +1,7 @@
 # Use Your INSTINCT: Instruction Optimization Using Neural Bandits Coupled with Transformers
 Xiaoqiang Lin*, Zhaoxuan Wu*, Zhongxiang Dai, Wenyang Hu, Yao Shu, See-Kiong Ng, Patrick Jaillet, Bryan Kian Hsiang Low
 
-[Project Homepage](https://sites.google.com/view/use-your-instinct) | [ArXiv](https://arxiv.org/pdf/2310.02905.pdf)
+[Project Homepage](https://xqlin98.github.io/INSTINCT/) | [ArXiv](https://arxiv.org/abs/2310.02905) | [Paper](https://arxiv.org/pdf/2310.02905.pdf)
 
 This is the code for the paper: Use Your INSTINCT: Instruction Optimization Using Neural Bandits Coupled with Transformers.
 We provide all the codes for our experiments which includes:
