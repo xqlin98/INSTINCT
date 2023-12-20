@@ -24,7 +24,7 @@ from botorch import fit_gpytorch_model
 from botorch.acquisition.analytic import ExpectedImprovement
 from gpytorch.kernels import ScaleKernel, MaternKernel
 from gpytorch.priors import GammaPrior
-from instruction_coupled_kernel import *
+# from instruction_coupled_kernel import *
 from tqdm import tqdm
 import argparse
 from experiments.evaluation.instruction_induction.utility import set_all_seed, TASKS
