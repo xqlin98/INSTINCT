@@ -38,7 +38,7 @@ export export OPENAI_API_KEY=YOUR_KEY
 
 ## BibTeX
 ```
-@inproceedings{lin2023use,
+@inproceedings{lin2024use,
         title={Use Your {INSTINCT}: INSTruction optimization usIng Neural bandits Coupled with Transformers},
         author={Xiaoqiang Lin and Zhaoxuan Wu and Zhongxiang Dai and Wenyang Hu and Yao Shu and See-Kiong Ng and Patrick Jaillet and Bryan Kian Hsiang Low},
         year={2024},
