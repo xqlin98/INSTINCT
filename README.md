@@ -38,12 +38,10 @@ export export OPENAI_API_KEY=YOUR_KEY
 
 ## BibTeX
 ```
-@article{lin2023use,
-      title={Use Your INSTINCT: Instruction Optimization Using Neural Bandits Coupled with Transformers}, 
-      author={Xiaoqiang Lin and Zhaoxuan Wu and Zhongxiang Dai and Wenyang Hu and Yao Shu and See-Kiong Ng and Patrick Jaillet and Bryan Kian Hsiang Low},
-      year={2023},
-      eprint={2310.02905},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{lin2023use,
+        title={Use Your {INSTINCT}: INSTruction optimization usIng Neural bandits Coupled with Transformers},
+        author={Xiaoqiang Lin and Zhaoxuan Wu and Zhongxiang Dai and Wenyang Hu and Yao Shu and See-Kiong Ng and Patrick Jaillet and Bryan Kian Hsiang Low},
+        year={2024},
+        booktitle={Proc. ICML}
 }
 ```
