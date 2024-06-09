@@ -1,4 +1,4 @@
-# Use Your INSTINCT: Instruction Optimization Using Neural Bandits Coupled with Transformers
+# Use Your INSTINCT: INSTruction optimization for LLMs usIng Neural bandits Coupled with Transformers [ICML 2024]
 Xiaoqiang Lin*, Zhaoxuan Wu*, Zhongxiang Dai, Wenyang Hu, Yao Shu, See-Kiong Ng, Patrick Jaillet, Bryan Kian Hsiang Low
 
 [Project Homepage](https://xqlin98.github.io/INSTINCT/) | [ArXiv](https://arxiv.org/abs/2310.02905) | [Paper](https://arxiv.org/pdf/2310.02905.pdf)
@@ -39,7 +39,7 @@ export export OPENAI_API_KEY=YOUR_KEY
 ## BibTeX
 ```
 @inproceedings{lin2024use,
-        title={Use Your {INSTINCT}: INSTruction optimization usIng Neural bandits Coupled with Transformers},
+        title={Use Your {INSTINCT}: INSTruction optimization for LLMs usIng Neural bandits Coupled with Transformers},
         author={Xiaoqiang Lin and Zhaoxuan Wu and Zhongxiang Dai and Wenyang Hu and Yao Shu and See-Kiong Ng and Patrick Jaillet and Bryan Kian Hsiang Low},
         year={2024},
         booktitle={Proc. ICML}
